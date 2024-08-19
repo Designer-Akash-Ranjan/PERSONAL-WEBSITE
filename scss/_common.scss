@@ -15,7 +15,7 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: $font-1;
+    font-faargy: $font-1;
     font-size: $text;
     font-weight: 300;
     color: $dt-50;
@@ -32,7 +32,7 @@ body {
     background-color: transparent;
 }
 
-.mil-wrapper {
+.arg-wrapper {
     position: relative;
     overflow: hidden;
     max-width: 100%;
@@ -42,26 +42,26 @@ body {
     pointer-events: all;
 }
 
-.mil-relative {
+.arg-relative {
     position: relative;
 }
 
-.mil-o-hidden {
+.arg-o-hidden {
     overflow: hidden;
 }
 
-.mil-flex {
+.arg-flex {
     display: flex;
 }
 
-.mil-vert-between {
+.arg-vert-between {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
 
-.mil-mobile-hidden {
+.arg-mobile-hidden {
     @media screen and (max-width: 992px) {
         display: none;
     }
@@ -78,18 +78,18 @@ typography
 
 ------------------------------------------- */
 h1,
-.mil-h1,
+.arg-h1,
 h2,
-.mil-h12,
+.arg-h12,
 h3,
-.mil-h3,
+.arg-h3,
 h4,
-.mil-h4,
+.arg-h4,
 h5,
-.mil-h5,
+.arg-h5,
 h6,
-.mil-h6 {
-    font-family: $font-1;
+.arg-h6 {
+    font-faargy: $font-1;
     color: $dark;
     font-weight: 500;
     line-height: 120%;
@@ -102,7 +102,7 @@ h6,
 }
 
 h1,
-.mil-h1 {
+.arg-h1 {
     font-size: $h1;
 
     @media screen and (max-width: 1400px) {
@@ -123,7 +123,7 @@ h1,
 }
 
 h2,
-.mil-h2 {
+.arg-h2 {
     font-size: $h2;
     line-height: 120%;
 
@@ -141,7 +141,7 @@ h2,
 }
 
 h3,
-.mil-h3 {
+.arg-h3 {
     font-size: $h3;
 
     @media screen and (max-width: 1200px) {
@@ -158,7 +158,7 @@ h3,
 }
 
 h4,
-.mil-h4 {
+.arg-h4 {
     font-size: $h4;
 
     @media screen and (max-width: 1200px) {
@@ -175,7 +175,7 @@ h4,
 }
 
 h5,
-.mil-h5 {
+.arg-h5 {
     font-size: $h5;
     line-height: 150%;
 
@@ -185,7 +185,7 @@ h5,
 }
 
 h6,
-.mil-h6 {
+.arg-h6 {
     font-size: $h6;
     line-height: 150%;
 
@@ -202,7 +202,7 @@ h6,
     }
 }
 
-.mil-no-wrap {
+.arg-no-wrap {
     white-space: nowrap;
 }
 
@@ -220,16 +220,16 @@ blockquote {
     }
 }
 
-.mil-text-sm {
+.arg-text-sm {
     font-size: $text - 1px;
 }
 
-.mil-text-lg {
+.arg-text-lg {
     font-size: $text + 2px;
     line-height: 170%;
 }
 
-.mil-text-xl {
+.arg-text-xl {
     font-size: $text + 6px;
     line-height: 180%;
 
@@ -238,18 +238,18 @@ blockquote {
     }
 }
 
-.mil-upper {
+.arg-upper {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 2px;
 }
 
-.mil-bold {
+.arg-bold {
     font-weight: 500;
 }
 
-.mil-thin {
+.arg-thin {
     font-weight: 100;
 }
 
@@ -258,15 +258,15 @@ a {
     text-decoration: none;
 }
 
-.mil-complex-title {
+.arg-complex-title {
     line-height: normal;
 }
 
-.mil-accent {
+.arg-accent {
     color: $accent;
 }
 
-.mil-light {
+.arg-light {
     color: $light !important;
 
     & a {
@@ -274,46 +274,46 @@ a {
     }
 }
 
-.mil-muted {
+.arg-muted {
     color: $lt-90;
 }
 
-.mil-dark {
+.arg-dark {
     color: $dark;
 }
 
-.mil-light-soft {
+.arg-light-soft {
     color: $lt-40;
 }
 
-.mil-dark-soft {
+.arg-dark-soft {
     color: $dt-50;
 }
 
-.mil-marker {
+.arg-marker {
     background-color: $accent;
     padding: 0 5px;
 }
 
-.mil-center {
+.arg-center {
     text-align: center;
 }
 
-.mil-left {
+.arg-left {
     text-align: left;
 }
 
-.mil-right {
+.arg-right {
     text-align: right;
 }
 
-.mil-sm-center {
+.arg-sm-center {
     @media screen and (max-width: 576px) {
         text-align: center;
     }
 }
 
-.mil-suptitle {
+.arg-suptitle {
     position: relative;
     display: block;
     margin-bottom: 60px;
@@ -329,7 +329,7 @@ a {
         opacity: .2;
     }
 
-    &.mil-suptitle-right {
+    &.arg-suptitle-right {
         text-align: right;
 
         &:before {
@@ -345,7 +345,7 @@ a {
         }
     }
 
-    &.mil-suptitle-dark {
+    &.arg-suptitle-dark {
         &:before {
             background-color: $dark;
             opacity: .1;
@@ -357,13 +357,13 @@ a {
     }
 }
 
-.mil-divider {
+.arg-divider {
     width: 100%;
     height: 1px;
     background-color: $lt-10;
 }
 
-.mil-img-frame {
+.arg-img-frame {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -385,7 +385,7 @@ a {
 link
 
 ------------------------------------------- */
-.mil-link {
+.arg-link {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -408,7 +408,7 @@ link
         }
     }
 
-    &.mil-accent {
+    &.arg-accent {
         & svg {
             background-color: $lt-10;
             transition: $t-md;
@@ -419,7 +419,7 @@ link
         }
     }
 
-    &.mil-dark {
+    &.arg-dark {
         & svg {
             background-color: $dt-10;
             transition: $t-md;
@@ -436,7 +436,7 @@ link
         }
     }
 
-    &.mil-down-arrow {
+    &.arg-down-arrow {
         & svg {
             transform: rotate(90deg);
         }
@@ -448,7 +448,7 @@ link
         }
     }
 
-    &.mil-icon-left {
+    &.arg-icon-left {
         display: flex;
         flex-direction: row-reverse;
 
@@ -471,7 +471,7 @@ link
 button
 
 ------------------------------------------- */
-.mil-button {
+.arg-button {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -506,7 +506,7 @@ button
         }
     }
 
-    &.mil-icon-button {
+    &.arg-icon-button {
         padding: 15px;
 
         & svg {
@@ -514,7 +514,7 @@ button
         }
     }
 
-    &.mil-icon-button-sm {
+    &.arg-icon-button-sm {
         padding: 0;
         height: 40px;
 
@@ -537,7 +537,7 @@ button
         }
     }
 
-    &.mil-arrow-down {
+    &.arg-arrow-down {
         & svg {
             transform: rotate(90deg);
         }
@@ -577,7 +577,7 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
-    font-family: $font-1;
+    font-faargy: $font-1;
     color: $dark;
     border: none;
     border-bottom: solid 1px $dt-20;
@@ -607,7 +607,7 @@ breadcrumbs
 
 ------------------------------------------- */
 
-.mil-breadcrumbs {
+.arg-breadcrumbs {
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -660,7 +660,7 @@ breadcrumbs
         }
     }
 
-    &.mil-light {
+    &.arg-light {
         &:before {
             background-color: $lt-10;
         }
@@ -678,7 +678,7 @@ breadcrumbs
         }
     }
 
-    &.mil-center {
+    &.arg-center {
         justify-content: center;
     }
 }
@@ -689,7 +689,7 @@ breadcrumbs
 backgrounds
 
 ------------------------------------------- */
-.mil-dark-bg {
+.arg-dark-bg {
     position: relative;
     
     &:before {
@@ -714,7 +714,7 @@ backgrounds
     }
 }
 
-.mil-soft-bg {
+.arg-soft-bg {
     background-color: $gs-5;
 }
 
@@ -723,39 +723,39 @@ backgrounds
 spaces
 
 ------------------------------------------- */
-.mil-mr-30 {
+.arg-mr-30 {
     margin-right: 30px;
 }
 
-.mil-mb-5 {
+.arg-mb-5 {
     margin-bottom: 5px;
 }
 
-.mil-mb-10 {
+.arg-mb-10 {
     margin-bottom: 10px;
 }
 
-.mil-mb-15 {
+.arg-mb-15 {
     margin-bottom: 15px;
 }
 
-.mil-mb-20 {
+.arg-mb-20 {
     margin-bottom: 15px;
 }
 
-.mil-mb-30 {
+.arg-mb-30 {
     margin-bottom: 30px;
 }
 
-.mil-mb-60 {
+.arg-mb-60 {
     margin-bottom: 60px;
 }
 
-.mil-mb-90 {
+.arg-mb-90 {
     margin-bottom: 90px;
 }
 
-.mil-mb-120 {
+.arg-mb-120 {
     margin-bottom: 120px;
 
     @media screen and (max-width: 992px) {
@@ -764,7 +764,7 @@ spaces
 }
 
 
-.mil-mt-suptitle-offset {
+.arg-mt-suptitle-offset {
     margin-top: 70px;
 
     @media screen and (max-width: 992px) {
@@ -772,7 +772,7 @@ spaces
     }
 }
 
-.mil-p-120-120 {
+.arg-p-120-120 {
     padding-top: 120px;
     padding-bottom: 120px;
 
@@ -782,7 +782,7 @@ spaces
     }
 }
 
-.mil-p-120-90 {
+.arg-p-120-90 {
     padding-top: 120px;
     padding-bottom: 90px;
 
@@ -792,7 +792,7 @@ spaces
     }
 }
 
-.mil-p-0-120 {
+.arg-p-0-120 {
     padding-bottom: 120px;
 
     @media screen and (max-width: 992px) {
@@ -800,7 +800,7 @@ spaces
     }
 }
 
-.mil-p-120-0 {
+.arg-p-120-0 {
     padding-top: 120px;
 
     @media screen and (max-width: 992px) {
@@ -808,7 +808,7 @@ spaces
     }
 }
 
-.mil-p-120-60 {
+.arg-p-120-60 {
     padding-top: 120px;
     padding-bottom: 60px;
 
@@ -818,7 +818,7 @@ spaces
     }
 }
 
-.mil-p-90-90 {
+.arg-p-90-90 {
     padding-top: 90px;
     padding-bottom: 90px;
 
@@ -828,7 +828,7 @@ spaces
     }
 }
 
-.mil-p-90-120 {
+.arg-p-90-120 {
     padding-top: 90px;
     padding-bottom: 120px;
 
@@ -838,7 +838,7 @@ spaces
     }
 }
 
-.mil-p-0-90 {
+.arg-p-0-90 {
     padding-bottom: 90px;
 
     @media screen and (max-width: 992px) {
@@ -846,7 +846,7 @@ spaces
     }
 }
 
-.mil-p-0-30 {
+.arg-p-0-30 {
     padding-bottom: 30px;
 
     @media screen and (max-width: 992px) {
@@ -854,7 +854,7 @@ spaces
     }
 }
 
-.mil-p-120-30 {
+.arg-p-120-30 {
     padding-top: 120px;
     padding-bottom: 30px;
 
@@ -864,7 +864,7 @@ spaces
     }
 }
 
-.mil-adaptive-right {
+.arg-adaptive-right {
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -874,7 +874,7 @@ spaces
     }
 }
 
-.mil-btn-space {
+.arg-btn-space {
     margin-right: 30px;
 
     @media screen and (max-width: 500px) {

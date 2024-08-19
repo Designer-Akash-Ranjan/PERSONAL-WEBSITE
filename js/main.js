@@ -2,10 +2,10 @@
 
 Name: 		Ruizarch
 Version:    1.0
-Developer:	Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
+Developer:	Nazar argler (arglerDigitalDesign)
+Portfolio:  https://themeforest.net/user/arglerdigitaldesign/portfolio?ref=arglerDigitalDesign
 
-p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
+p.s. I am available for Freelance hire (UI design, web development). email: argler.themes@gmail.com
 
 ------------------------------------------- */
 
@@ -22,7 +22,7 @@ $(function () {
         containers: ['#swupMain', '#swupMenu'],
         animateHistoryBrowsing: true,
         linkSelector: 'a:not([data-no-swup])',
-        animationSelector: '[class="mil-main-transition"]'
+        animationSelector: '[class="arg-main-transition"]'
     };
     const swup = new Swup(options);
 
@@ -50,12 +50,12 @@ $(function () {
 
     var timeline = gsap.timeline();
 
-    timeline.to(".mil-preloader-animation", {
+    timeline.to(".arg-preloader-animation", {
         opacity: 1,
     });
 
     timeline.fromTo(
-        ".mil-animation-1 .mil-h3", {
+        ".arg-animation-1 .arg-h3", {
             y: "30px",
             opacity: 0
         }, {
@@ -65,42 +65,42 @@ $(function () {
         },
     );
 
-    timeline.to(".mil-animation-1 .mil-h3", {
+    timeline.to(".arg-animation-1 .arg-h3", {
         opacity: 0,
         y: '-30',
     }, "+=.3");
 
-    timeline.fromTo(".mil-reveal-box", 0.1, {
+    timeline.fromTo(".arg-reveal-box", 0.1, {
         opacity: 0,
     }, {
         opacity: 1,
         x: '-30',
     });
 
-    timeline.to(".mil-reveal-box", 0.45, {
+    timeline.to(".arg-reveal-box", 0.45, {
         width: "100%",
         x: 0,
     }, "+=.1");
-    timeline.to(".mil-reveal-box", {
+    timeline.to(".arg-reveal-box", {
         right: "0"
     });
-    timeline.to(".mil-reveal-box", 0.3, {
+    timeline.to(".arg-reveal-box", 0.3, {
         width: "0%"
     });
-    timeline.fromTo(".mil-animation-2 .mil-h3", {
+    timeline.fromTo(".arg-animation-2 .arg-h3", {
         opacity: 0,
     }, {
         opacity: 1,
     }, "-=.5");
-    timeline.to(".mil-animation-2 .mil-h3", 0.6, {
+    timeline.to(".arg-animation-2 .arg-h3", 0.6, {
         opacity: 0,
         y: '-30'
     }, "+=.5");
-    timeline.to(".mil-preloader", 0.8, {
+    timeline.to(".arg-preloader", 0.8, {
         opacity: 0,
         ease: 'sine',
     }, "+=.2");
-    timeline.fromTo(".mil-up", 0.8, {
+    timeline.fromTo(".arg-up", 0.8, {
         opacity: 0,
         y: 40,
         scale: .98,
@@ -111,7 +111,7 @@ $(function () {
         opacity: 1,
         scale: 1,
         onComplete: function () {
-            $('.mil-preloader').addClass("mil-hidden");
+            $('.arg-preloader').addClass("arg-hidden");
         },
     }, "-=1");
     /***************************
@@ -139,10 +139,10 @@ $(function () {
 
     ***************************/
     $(document).ready(function () {
-        $(".mil-arrow").clone().appendTo(".mil-arrow-place");
-        $(".mil-dodecahedron").clone().appendTo(".mil-animation");
-        $(".mil-lines").clone().appendTo(".mil-lines-place");
-        $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
+        $(".arg-arrow").clone().appendTo(".arg-arrow-place");
+        $(".arg-dodecahedron").clone().appendTo(".arg-animation");
+        $(".arg-lines").clone().appendTo(".arg-lines-place");
+        $(".arg-main-menu ul li.arg-active > a").clone().appendTo(".arg-current-page");
     });
     /***************************
 
@@ -150,8 +150,8 @@ $(function () {
 
     ***************************/
 
-    let groups = gsap.utils.toArray(".mil-accordion-group");
-    let menus = gsap.utils.toArray(".mil-accordion-menu");
+    let groups = gsap.utils.toArray(".arg-accordion-group");
+    let menus = gsap.utils.toArray(".arg-accordion-menu");
     let menuToggles = groups.map(createAnimation);
 
     menus.forEach((menu) => {
@@ -163,11 +163,11 @@ $(function () {
     }
 
     function createAnimation(element) {
-        let menu = element.querySelector(".mil-accordion-menu");
-        let box = element.querySelector(".mil-accordion-content");
-        let symbol = element.querySelector(".mil-symbol");
-        let minusElement = element.querySelector(".mil-minus");
-        let plusElement = element.querySelector(".mil-plus");
+        let menu = element.querySelector(".arg-accordion-menu");
+        let box = element.querySelector(".arg-accordion-content");
+        let symbol = element.querySelector(".arg-symbol");
+        let minusElement = element.querySelector(".arg-minus");
+        let plusElement = element.querySelector(".arg-plus");
 
         gsap.set(box, {
             height: "auto",
@@ -209,7 +209,7 @@ $(function () {
     back to top
 
     ***************************/
-    const btt = document.querySelector(".mil-back-to-top .mil-link");
+    const btt = document.querySelector(".arg-back-to-top .arg-link");
 
     gsap.set(btt, {
         x: -30,
@@ -232,7 +232,7 @@ $(function () {
     cursor
 
     ***************************/
-    const cursor = document.querySelector('.mil-ball');
+    const cursor = document.querySelector('.arg-ball');
 
     gsap.set(cursor, {
         xPercent: -50,
@@ -250,7 +250,7 @@ $(function () {
         });
     }
 
-    $('.mil-drag, .mil-more, .mil-choose').mouseover(function () {
+    $('.arg-drag, .arg-more, .arg-choose').mouseover(function () {
         gsap.to($(cursor), .2, {
             width: 90,
             height: 90,
@@ -259,7 +259,7 @@ $(function () {
         });
     });
 
-    $('.mil-drag, .mil-more, .mil-choose').mouseleave(function () {
+    $('.arg-drag, .arg-more, .arg-choose').mouseleave(function () {
         gsap.to($(cursor), .2, {
             width: 20,
             height: 20,
@@ -268,81 +268,81 @@ $(function () {
         });
     });
 
-    $('.mil-accent-cursor').mouseover(function () {
+    $('.arg-accent-cursor').mouseover(function () {
         gsap.to($(cursor), .2, {
             background: accent,
             ease: 'sine',
         });
-        $(cursor).addClass('mil-accent');
+        $(cursor).addClass('arg-accent');
     });
 
-    $('.mil-accent-cursor').mouseleave(function () {
+    $('.arg-accent-cursor').mouseleave(function () {
         gsap.to($(cursor), .2, {
             background: dark,
             ease: 'sine',
         });
-        $(cursor).removeClass('mil-accent');
+        $(cursor).removeClass('arg-accent');
     });
 
-    $('.mil-drag').mouseover(function () {
-        gsap.to($('.mil-ball .mil-icon-1'), .2, {
+    $('.arg-drag').mouseover(function () {
+        gsap.to($('.arg-ball .arg-icon-1'), .2, {
             scale: '1',
             ease: 'sine',
         });
     });
 
-    $('.mil-drag').mouseleave(function () {
-        gsap.to($('.mil-ball .mil-icon-1'), .2, {
+    $('.arg-drag').mouseleave(function () {
+        gsap.to($('.arg-ball .arg-icon-1'), .2, {
             scale: '0',
             ease: 'sine',
         });
     });
 
-    $('.mil-more').mouseover(function () {
-        gsap.to($('.mil-ball .mil-more-text'), .2, {
+    $('.arg-more').mouseover(function () {
+        gsap.to($('.arg-ball .arg-more-text'), .2, {
             scale: '1',
             ease: 'sine',
         });
     });
 
-    $('.mil-more').mouseleave(function () {
-        gsap.to($('.mil-ball .mil-more-text'), .2, {
+    $('.arg-more').mouseleave(function () {
+        gsap.to($('.arg-ball .arg-more-text'), .2, {
             scale: '0',
             ease: 'sine',
         });
     });
 
-    $('.mil-choose').mouseover(function () {
-        gsap.to($('.mil-ball .mil-choose-text'), .2, {
+    $('.arg-choose').mouseover(function () {
+        gsap.to($('.arg-ball .arg-choose-text'), .2, {
             scale: '1',
             ease: 'sine',
         });
     });
 
-    $('.mil-choose').mouseleave(function () {
-        gsap.to($('.mil-ball .mil-choose-text'), .2, {
+    $('.arg-choose').mouseleave(function () {
+        gsap.to($('.arg-ball .arg-choose-text'), .2, {
             scale: '0',
             ease: 'sine',
         });
     });
 
-    $('a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input , textarea, .mil-accordion-menu').mouseover(function () {
+    $('a:not(".arg-choose , .arg-more , .arg-drag , .arg-accent-cursor"), input , textarea, .arg-accordion-menu').mouseover(function () {
         gsap.to($(cursor), .2, {
             scale: 0,
             ease: 'sine',
         });
-        gsap.to($('.mil-ball svg'), .2, {
+        gsap.to($('.arg-ball svg'), .2, {
             scale: 0,
         });
     });
 
-    $('a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input, textarea, .mil-accordion-menu').mouseleave(function () {
+    $('a:not(".arg-choose , .arg-more , .arg-drag , .arg-accent-cursor"), input, textarea, .arg-accordion-menu').mouseleave(function () {
         gsap.to($(cursor), .2, {
             scale: 1,
             ease: 'sine',
         });
 
-        gsap.to($('.mil-ball svg'), .2, {
+        gsap.to($('.arg-ball svg'), .2, {
             scale: 1,
         });
     });
@@ -364,28 +364,28 @@ $(function () {
      menu
 
     ***************************/
-    $('.mil-menu-btn').on("click", function () {
-        $('.mil-menu-btn').toggleClass('mil-active');
-        $('.mil-menu').toggleClass('mil-active');
-        $('.mil-menu-frame').toggleClass('mil-active');
+    $('.arg-menu-btn').on("click", function () {
+        $('.arg-menu-btn').toggleClass('arg-active');
+        $('.arg-menu').toggleClass('arg-active');
+        $('.arg-menu-frame').toggleClass('arg-active');
     });
     /***************************
 
     main menu
 
     ***************************/
-    $('.mil-has-children a').on('click', function () {
-        $('.mil-has-children ul').removeClass('mil-active');
-        $('.mil-has-children a').removeClass('mil-active');
-        $(this).toggleClass('mil-active');
-        $(this).next().toggleClass('mil-active');
+    $('.arg-has-children a').on('click', function () {
+        $('.arg-has-children ul').removeClass('arg-active');
+        $('.arg-has-children a').removeClass('arg-active');
+        $(this).toggleClass('arg-active');
+        $(this).next().toggleClass('arg-active');
     });
     /***************************
 
     progressbar
 
     ***************************/
-    gsap.to('.mil-progress', {
+    gsap.to('.arg-progress', {
         height: '100%',
         ease: 'sine',
         scrollTrigger: {
@@ -398,7 +398,7 @@ $(function () {
 
     ***************************/
 
-    const appearance = document.querySelectorAll(".mil-up");
+    const appearance = document.querySelectorAll(".arg-up");
 
     appearance.forEach((section) => {
         gsap.fromTo(section, {
@@ -419,7 +419,7 @@ $(function () {
         });
     });
 
-    const scaleImage = document.querySelectorAll(".mil-scale");
+    const scaleImage = document.querySelectorAll(".arg-scale");
 
     scaleImage.forEach((section) => {
         var value1 = $(section).data("value-1");
@@ -438,7 +438,7 @@ $(function () {
         });
     });
 
-    const parallaxImage = document.querySelectorAll(".mil-parallax");
+    const parallaxImage = document.querySelectorAll(".arg-parallax");
 
 
     if ($(window).width() > 960) {
@@ -460,7 +460,7 @@ $(function () {
         });
     }
 
-    const rotate = document.querySelectorAll(".mil-rotate");
+    const rotate = document.querySelectorAll(".arg-rotate");
 
     rotate.forEach((section) => {
         var value = $(section).data("value");
@@ -499,11 +499,11 @@ $(function () {
 
     ***************************/
 
-    var menu = ['<div class="mil-custom-dot mil-slide-1"></div>', '<div class="mil-custom-dot mil-slide-2"></div>', '<div class="mil-custom-dot mil-slide-3"></div>', '<div class="mil-custom-dot mil-slide-4"></div>', '<div class="mil-custom-dot mil-slide-5"></div>', '<div class="mil-custom-dot mil-slide-6"></div>', '<div class="mil-custom-dot mil-slide-7"></div>']
-    var mySwiper = new Swiper('.mil-reviews-slider', {
+    var menu = ['<div class="arg-custom-dot arg-slide-1"></div>', '<div class="arg-custom-dot arg-slide-2"></div>', '<div class="arg-custom-dot arg-slide-3"></div>', '<div class="arg-custom-dot arg-slide-4"></div>', '<div class="arg-custom-dot arg-slide-5"></div>', '<div class="arg-custom-dot arg-slide-6"></div>', '<div class="arg-custom-dot arg-slide-7"></div>']
+    var mySwiper = new Swiper('.arg-reviews-slider', {
         // If we need pagination
         pagination: {
-            el: '.mil-revi-pagination',
+            el: '.arg-revi-pagination',
             clickable: true,
             renderBullet: function (index, className) {
                 return '<span class="' + className + '">' + (menu[index]) + '</span>';
@@ -513,8 +513,8 @@ $(function () {
         effect: 'fade',
         parallax: true,
         navigation: {
-            nextEl: '.mil-revi-next',
-            prevEl: '.mil-revi-prev',
+            nextEl: '.arg-revi-next',
+            prevEl: '.arg-revi-prev',
         },
     })
 
@@ -523,7 +523,7 @@ $(function () {
     infinite slider
 
     ***************************/
-    var swiper = new Swiper('.mil-infinite-show', {
+    var swiper = new Swiper('.arg-infinite-show', {
         slidesPerView: 2,
         spaceBetween: 30,
         speed: 5000,
@@ -545,7 +545,7 @@ $(function () {
     portfolio slider
 
     ***************************/
-    var swiper = new Swiper('.mil-portfolio-slider', {
+    var swiper = new Swiper('.arg-portfolio-slider', {
         slidesPerView: 1,
         spaceBetween: 0,
         speed: 800,
@@ -554,8 +554,8 @@ $(function () {
             enable: true
         },
         navigation: {
-            nextEl: '.mil-portfolio-next',
-            prevEl: '.mil-portfolio-prev',
+            nextEl: '.arg-portfolio-next',
+            prevEl: '.arg-portfolio-prev',
         },
         pagination: {
             el: '.swiper-portfolio-pagination',
@@ -567,14 +567,14 @@ $(function () {
     1 item slider
 
     ***************************/
-    var swiper = new Swiper('.mil-1-slider', {
+    var swiper = new Swiper('.arg-1-slider', {
         slidesPerView: 1,
         spaceBetween: 30,
         speed: 800,
         parallax: true,
         navigation: {
-            nextEl: '.mil-portfolio-next',
-            prevEl: '.mil-portfolio-prev',
+            nextEl: '.arg-portfolio-next',
+            prevEl: '.arg-portfolio-prev',
         },
         pagination: {
             el: '.swiper-portfolio-pagination',
@@ -586,14 +586,14 @@ $(function () {
     2 item slider
 
     ***************************/
-    var swiper = new Swiper('.mil-2-slider', {
+    var swiper = new Swiper('.arg-2-slider', {
         slidesPerView: 1,
         spaceBetween: 30,
         speed: 800,
         parallax: true,
         navigation: {
-            nextEl: '.mil-portfolio-next',
-            prevEl: '.mil-portfolio-prev',
+            nextEl: '.arg-portfolio-next',
+            prevEl: '.arg-portfolio-prev',
         },
         pagination: {
             el: '.swiper-portfolio-pagination',
@@ -619,7 +619,7 @@ $(function () {
             scrollTop: 0,
         }, 0);
 
-        gsap.to('.mil-progress', {
+        gsap.to('.arg-progress', {
             height: 0,
             ease: 'sine',
             onComplete: () => {
@@ -631,20 +631,20 @@ $(function () {
          menu
 
         ***************************/
-        $('.mil-menu-btn').removeClass('mil-active');
-        $('.mil-menu').removeClass('mil-active');
-        $('.mil-menu-frame').removeClass('mil-active');
+        $('.arg-menu-btn').removeClass('arg-active');
+        $('.arg-menu').removeClass('arg-active');
+        $('.arg-menu-frame').removeClass('arg-active');
         /***************************
 
         append
 
         ***************************/
         $(document).ready(function () {
-            $(".mil-arrow-place .mil-arrow, .mil-animation .mil-dodecahedron, .mil-current-page a").remove();
-            $(".mil-arrow").clone().appendTo(".mil-arrow-place");
-            $(".mil-dodecahedron").clone().appendTo(".mil-animation");
-            $(".mil-lines").clone().appendTo(".mil-lines-place");
-            $(".mil-main-menu ul li.mil-active > a").clone().appendTo(".mil-current-page");
+            $(".arg-arrow-place .arg-arrow, .arg-animation .arg-dodecahedron, .arg-current-page a").remove();
+            $(".arg-arrow").clone().appendTo(".arg-arrow-place");
+            $(".arg-dodecahedron").clone().appendTo(".arg-animation");
+            $(".arg-lines").clone().appendTo(".arg-lines-place");
+            $(".arg-main-menu ul li.arg-active > a").clone().appendTo(".arg-current-page");
         });
         /***************************
 
@@ -652,8 +652,8 @@ $(function () {
 
         ***************************/
 
-        let groups = gsap.utils.toArray(".mil-accordion-group");
-        let menus = gsap.utils.toArray(".mil-accordion-menu");
+        let groups = gsap.utils.toArray(".arg-accordion-group");
+        let menus = gsap.utils.toArray(".arg-accordion-menu");
         let menuToggles = groups.map(createAnimation);
 
         menus.forEach((menu) => {
@@ -665,11 +665,11 @@ $(function () {
         }
 
         function createAnimation(element) {
-            let menu = element.querySelector(".mil-accordion-menu");
-            let box = element.querySelector(".mil-accordion-content");
-            let symbol = element.querySelector(".mil-symbol");
-            let minusElement = element.querySelector(".mil-minus");
-            let plusElement = element.querySelector(".mil-plus");
+            let menu = element.querySelector(".arg-accordion-menu");
+            let box = element.querySelector(".arg-accordion-content");
+            let symbol = element.querySelector(".arg-symbol");
+            let minusElement = element.querySelector(".arg-minus");
+            let plusElement = element.querySelector(".arg-plus");
 
             gsap.set(box, {
                 height: "auto",
@@ -713,7 +713,7 @@ $(function () {
 
         ***************************/
 
-        $('.mil-drag, .mil-more, .mil-choose').mouseover(function () {
+        $('.arg-drag, .arg-more, .arg-choose').mouseover(function () {
             gsap.to($(cursor), .2, {
                 width: 90,
                 height: 90,
@@ -722,7 +722,7 @@ $(function () {
             });
         });
 
-        $('.mil-drag, .mil-more, .mil-choose').mouseleave(function () {
+        $('.arg-drag, .arg-more, .arg-choose').mouseleave(function () {
             gsap.to($(cursor), .2, {
                 width: 20,
                 height: 20,
@@ -731,81 +731,81 @@ $(function () {
             });
         });
 
-        $('.mil-accent-cursor').mouseover(function () {
+        $('.arg-accent-cursor').mouseover(function () {
             gsap.to($(cursor), .2, {
                 background: accent,
                 ease: 'sine',
             });
-            $(cursor).addClass('mil-accent');
+            $(cursor).addClass('arg-accent');
         });
 
-        $('.mil-accent-cursor').mouseleave(function () {
+        $('.arg-accent-cursor').mouseleave(function () {
             gsap.to($(cursor), .2, {
                 background: dark,
                 ease: 'sine',
             });
-            $(cursor).removeClass('mil-accent');
+            $(cursor).removeClass('arg-accent');
         });
 
-        $('.mil-drag').mouseover(function () {
-            gsap.to($('.mil-ball .mil-icon-1'), .2, {
+        $('.arg-drag').mouseover(function () {
+            gsap.to($('.arg-ball .arg-icon-1'), .2, {
                 scale: '1',
                 ease: 'sine',
             });
         });
 
-        $('.mil-drag').mouseleave(function () {
-            gsap.to($('.mil-ball .mil-icon-1'), .2, {
+        $('.arg-drag').mouseleave(function () {
+            gsap.to($('.arg-ball .arg-icon-1'), .2, {
                 scale: '0',
                 ease: 'sine',
             });
         });
 
-        $('.mil-more').mouseover(function () {
-            gsap.to($('.mil-ball .mil-more-text'), .2, {
+        $('.arg-more').mouseover(function () {
+            gsap.to($('.arg-ball .arg-more-text'), .2, {
                 scale: '1',
                 ease: 'sine',
             });
         });
 
-        $('.mil-more').mouseleave(function () {
-            gsap.to($('.mil-ball .mil-more-text'), .2, {
+        $('.arg-more').mouseleave(function () {
+            gsap.to($('.arg-ball .arg-more-text'), .2, {
                 scale: '0',
                 ease: 'sine',
             });
         });
 
-        $('.mil-choose').mouseover(function () {
-            gsap.to($('.mil-ball .mil-choose-text'), .2, {
+        $('.arg-choose').mouseover(function () {
+            gsap.to($('.arg-ball .arg-choose-text'), .2, {
                 scale: '1',
                 ease: 'sine',
             });
         });
 
-        $('.mil-choose').mouseleave(function () {
-            gsap.to($('.mil-ball .mil-choose-text'), .2, {
+        $('.arg-choose').mouseleave(function () {
+            gsap.to($('.arg-ball .arg-choose-text'), .2, {
                 scale: '0',
                 ease: 'sine',
             });
         });
 
-        $('a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input , textarea, .mil-accordion-menu').mouseover(function () {
+        $('a:not(".arg-choose , .arg-more , .arg-drag , .arg-accent-cursor"), input , textarea, .arg-accordion-menu').mouseover(function () {
             gsap.to($(cursor), .2, {
                 scale: 0,
                 ease: 'sine',
             });
-            gsap.to($('.mil-ball svg'), .2, {
+            gsap.to($('.arg-ball svg'), .2, {
                 scale: 0,
             });
         });
 
-        $('a:not(".mil-choose , .mil-more , .mil-drag , .mil-accent-cursor"), input, textarea, .mil-accordion-menu').mouseleave(function () {
+        $('a:not(".arg-choose , .arg-more , .arg-drag , .arg-accent-cursor"), input, textarea, .arg-accordion-menu').mouseleave(function () {
             gsap.to($(cursor), .2, {
                 scale: 1,
                 ease: 'sine',
             });
 
-            gsap.to($('.mil-ball svg'), .2, {
+            gsap.to($('.arg-ball svg'), .2, {
                 scale: 1,
             });
         });
@@ -827,11 +827,11 @@ $(function () {
         main menu
 
         ***************************/
-        $('.mil-has-children a').on('click', function () {
-            $('.mil-has-children ul').removeClass('mil-active');
-            $('.mil-has-children a').removeClass('mil-active');
-            $(this).toggleClass('mil-active');
-            $(this).next().toggleClass('mil-active');
+        $('.arg-has-children a').on('click', function () {
+            $('.arg-has-children ul').removeClass('arg-active');
+            $('.arg-has-children a').removeClass('arg-active');
+            $(this).toggleClass('arg-active');
+            $(this).next().toggleClass('arg-active');
         });
         /***************************
 
@@ -839,7 +839,7 @@ $(function () {
 
         ***************************/
 
-        const appearance = document.querySelectorAll(".mil-up");
+        const appearance = document.querySelectorAll(".arg-up");
 
         appearance.forEach((section) => {
             gsap.fromTo(section, {
@@ -860,7 +860,7 @@ $(function () {
             });
         });
 
-        const scaleImage = document.querySelectorAll(".mil-scale");
+        const scaleImage = document.querySelectorAll(".arg-scale");
 
         scaleImage.forEach((section) => {
             var value1 = $(section).data("value-1");
@@ -879,7 +879,7 @@ $(function () {
             });
         });
 
-        const parallaxImage = document.querySelectorAll(".mil-parallax");
+        const parallaxImage = document.querySelectorAll(".arg-parallax");
 
 
         if ($(window).width() > 960) {
@@ -901,7 +901,7 @@ $(function () {
             });
         }
 
-        const rotate = document.querySelectorAll(".mil-rotate");
+        const rotate = document.querySelectorAll(".arg-rotate");
 
         rotate.forEach((section) => {
             var value = $(section).data("value");
@@ -940,11 +940,11 @@ $(function () {
 
         ***************************/
 
-        var menu = ['<div class="mil-custom-dot mil-slide-1"></div>', '<div class="mil-custom-dot mil-slide-2"></div>', '<div class="mil-custom-dot mil-slide-3"></div>', '<div class="mil-custom-dot mil-slide-4"></div>', '<div class="mil-custom-dot mil-slide-5"></div>', '<div class="mil-custom-dot mil-slide-6"></div>', '<div class="mil-custom-dot mil-slide-7"></div>']
-        var mySwiper = new Swiper('.mil-reviews-slider', {
+        var menu = ['<div class="arg-custom-dot arg-slide-1"></div>', '<div class="arg-custom-dot arg-slide-2"></div>', '<div class="arg-custom-dot arg-slide-3"></div>', '<div class="arg-custom-dot arg-slide-4"></div>', '<div class="arg-custom-dot arg-slide-5"></div>', '<div class="arg-custom-dot arg-slide-6"></div>', '<div class="arg-custom-dot arg-slide-7"></div>']
+        var mySwiper = new Swiper('.arg-reviews-slider', {
             // If we need pagination
             pagination: {
-                el: '.mil-revi-pagination',
+                el: '.arg-revi-pagination',
                 clickable: true,
                 renderBullet: function (index, className) {
                     return '<span class="' + className + '">' + (menu[index]) + '</span>';
@@ -954,8 +954,8 @@ $(function () {
             effect: 'fade',
             parallax: true,
             navigation: {
-                nextEl: '.mil-revi-next',
-                prevEl: '.mil-revi-prev',
+                nextEl: '.arg-revi-next',
+                prevEl: '.arg-revi-prev',
             },
         })
 
@@ -964,7 +964,7 @@ $(function () {
         infinite slider
 
         ***************************/
-        var swiper = new Swiper('.mil-infinite-show', {
+        var swiper = new Swiper('.arg-infinite-show', {
             slidesPerView: 2,
             spaceBetween: 30,
             speed: 5000,
@@ -986,7 +986,7 @@ $(function () {
         portfolio slider
 
         ***************************/
-        var swiper = new Swiper('.mil-portfolio-slider', {
+        var swiper = new Swiper('.arg-portfolio-slider', {
             slidesPerView: 1,
             spaceBetween: 0,
             speed: 800,
@@ -995,8 +995,8 @@ $(function () {
                 enable: true
             },
             navigation: {
-                nextEl: '.mil-portfolio-next',
-                prevEl: '.mil-portfolio-prev',
+                nextEl: '.arg-portfolio-next',
+                prevEl: '.arg-portfolio-prev',
             },
             pagination: {
                 el: '.swiper-portfolio-pagination',
@@ -1008,14 +1008,14 @@ $(function () {
         1 item slider
 
         ***************************/
-        var swiper = new Swiper('.mil-1-slider', {
+        var swiper = new Swiper('.arg-1-slider', {
             slidesPerView: 1,
             spaceBetween: 30,
             speed: 800,
             parallax: true,
             navigation: {
-                nextEl: '.mil-portfolio-next',
-                prevEl: '.mil-portfolio-prev',
+                nextEl: '.arg-portfolio-next',
+                prevEl: '.arg-portfolio-prev',
             },
             pagination: {
                 el: '.swiper-portfolio-pagination',
@@ -1027,14 +1027,14 @@ $(function () {
         2 item slider
 
         ***************************/
-        var swiper = new Swiper('.mil-2-slider', {
+        var swiper = new Swiper('.arg-2-slider', {
             slidesPerView: 1,
             spaceBetween: 30,
             speed: 800,
             parallax: true,
             navigation: {
-                nextEl: '.mil-portfolio-next',
-                prevEl: '.mil-portfolio-prev',
+                nextEl: '.arg-portfolio-next',
+                prevEl: '.arg-portfolio-prev',
             },
             pagination: {
                 el: '.swiper-portfolio-pagination',
