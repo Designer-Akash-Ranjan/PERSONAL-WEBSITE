@@ -2,10 +2,10 @@
 
 Name: 		Ruizarch
 Version:    1.0
-Developer:	Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
+Developer:	Nazar argler (arglerDigitalDesign)
+Portfolio:  https://themeforest.net/user/arglerdigitaldesign/portfolio?ref=arglerDigitalDesign
 
-p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
+p.s. I am available for Freelance hire (UI design, web development). email: argler.themes@gmail.com
 
 ------------------------------------------- */
 /*--------------------------------------------
@@ -49,7 +49,7 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
 
 
 --------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?faargy=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css);
 /* -------------------------------------------
 
@@ -69,7 +69,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Outfit", sans-serif;
+  font-faargy: "Outfit", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: rgba(28, 30, 28, 0.5);
@@ -94,7 +94,7 @@ body {
   background-color: transparent;
 }
 
-.mil-wrapper {
+.arg-wrapper {
   position: relative;
   overflow: hidden;
   max-width: 100%;
@@ -104,21 +104,21 @@ body {
   pointer-events: all;
 }
 
-.mil-relative {
+.arg-relative {
   position: relative;
 }
 
-.mil-o-hidden {
+.arg-o-hidden {
   overflow: hidden;
 }
 
-.mil-flex {
+.arg-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.mil-vert-between {
+.arg-vert-between {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,7 +133,7 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .mil-mobile-hidden {
+  .arg-mobile-hidden {
     display: none;
   }
 }
@@ -149,175 +149,175 @@ typography
 
 ------------------------------------------- */
 h1,
-.mil-h1,
+.arg-h1,
 h2,
-.mil-h12,
+.arg-h12,
 h3,
-.mil-h3,
+.arg-h3,
 h4,
-.mil-h4,
+.arg-h4,
 h5,
-.mil-h5,
+.arg-h5,
 h6,
-.mil-h6 {
-  font-family: "Outfit", sans-serif;
+.arg-h6 {
+  font-faargy: "Outfit", sans-serif;
   color: rgb(28, 30, 28);
   font-weight: 500;
   line-height: 120%;
 }
 @media screen and (max-width: 768px) {
   h1 br,
-.mil-h1 br,
+.arg-h1 br,
 h2 br,
-.mil-h12 br,
+.arg-h12 br,
 h3 br,
-.mil-h3 br,
+.arg-h3 br,
 h4 br,
-.mil-h4 br,
+.arg-h4 br,
 h5 br,
-.mil-h5 br,
+.arg-h5 br,
 h6 br,
-.mil-h6 br {
+.arg-h6 br {
     display: none;
   }
 }
 
 h1,
-.mil-h1 {
+.arg-h1 {
   font-size: 86px;
 }
 @media screen and (max-width: 1400px) {
   h1,
-.mil-h1 {
+.arg-h1 {
     font-size: 74px;
   }
 }
 @media screen and (max-width: 1200px) {
   h1,
-.mil-h1 {
+.arg-h1 {
     font-size: 72px;
   }
 }
 @media screen and (max-width: 992px) {
   h1,
-.mil-h1 {
+.arg-h1 {
     font-size: 58px;
   }
 }
 @media screen and (max-width: 768px) {
   h1,
-.mil-h1 {
+.arg-h1 {
     font-size: 34px;
   }
 }
 
 h2,
-.mil-h2 {
+.arg-h2 {
   font-size: 68px;
   line-height: 120%;
 }
 @media screen and (max-width: 1200px) {
   h2,
-.mil-h2 {
+.arg-h2 {
     font-size: 56px;
   }
 }
 @media screen and (max-width: 992px) {
   h2,
-.mil-h2 {
+.arg-h2 {
     font-size: 44px;
   }
 }
 @media screen and (max-width: 768px) {
   h2,
-.mil-h2 {
+.arg-h2 {
     font-size: 36px;
   }
 }
 
 h3,
-.mil-h3 {
+.arg-h3 {
   font-size: 42px;
 }
 @media screen and (max-width: 1200px) {
   h3,
-.mil-h3 {
+.arg-h3 {
     font-size: 39px;
   }
 }
 @media screen and (max-width: 992px) {
   h3,
-.mil-h3 {
+.arg-h3 {
     font-size: 36px;
   }
 }
 @media screen and (max-width: 768px) {
   h3,
-.mil-h3 {
+.arg-h3 {
     font-size: 30px;
   }
 }
 
 h4,
-.mil-h4 {
+.arg-h4 {
   font-size: 28px;
 }
 @media screen and (max-width: 1200px) {
   h4,
-.mil-h4 {
+.arg-h4 {
     font-size: 26px;
   }
 }
 @media screen and (max-width: 992px) {
   h4,
-.mil-h4 {
+.arg-h4 {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 768px) {
   h4,
-.mil-h4 {
+.arg-h4 {
     font-size: 22px;
   }
 }
 
 h5,
-.mil-h5 {
+.arg-h5 {
   font-size: 20px;
   line-height: 150%;
 }
 @media screen and (max-width: 768px) {
   h5,
-.mil-h5 {
+.arg-h5 {
     font-size: 18px;
   }
 }
 
 h6,
-.mil-h6 {
+.arg-h6 {
   font-size: 18px;
   line-height: 150%;
 }
 @media screen and (max-width: 1200px) {
   h6,
-.mil-h6 {
+.arg-h6 {
     font-size: 17px;
   }
 }
 @media screen and (max-width: 992px) {
   h6,
-.mil-h6 {
+.arg-h6 {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 768px) {
   h6,
-.mil-h6 {
+.arg-h6 {
     font-size: 21px;
   }
 }
 
-.mil-no-wrap {
+.arg-no-wrap {
   white-space: nowrap;
 }
 
@@ -336,37 +336,37 @@ blockquote {
   }
 }
 
-.mil-text-sm {
+.arg-text-sm {
   font-size: 15px;
 }
 
-.mil-text-lg {
+.arg-text-lg {
   font-size: 18px;
   line-height: 170%;
 }
 
-.mil-text-xl {
+.arg-text-xl {
   font-size: 22px;
   line-height: 180%;
 }
 @media screen and (max-width: 768px) {
-  .mil-text-xl {
+  .arg-text-xl {
     font-size: 20px;
   }
 }
 
-.mil-upper {
+.arg-upper {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
 }
 
-.mil-bold {
+.arg-bold {
   font-weight: 500;
 }
 
-.mil-thin {
+.arg-thin {
   font-weight: 100;
 }
 
@@ -375,66 +375,66 @@ a {
   text-decoration: none;
 }
 
-.mil-complex-title {
+.arg-complex-title {
   line-height: normal;
 }
 
-.mil-accent {
+.arg-accent {
   color: rgb(122, 241, 122);
 }
 
-.mil-light {
+.arg-light {
   color: rgb(255, 255, 255) !important;
 }
-.mil-light a {
+.arg-light a {
   color: rgb(255, 255, 255) !important;
 }
 
-.mil-muted {
+.arg-muted {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.mil-dark {
+.arg-dark {
   color: rgb(28, 30, 28);
 }
 
-.mil-light-soft {
+.arg-light-soft {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.mil-dark-soft {
+.arg-dark-soft {
   color: rgba(28, 30, 28, 0.5);
 }
 
-.mil-marker {
+.arg-marker {
   background-color: rgb(122, 241, 122);
   padding: 0 5px;
 }
 
-.mil-center {
+.arg-center {
   text-align: center;
 }
 
-.mil-left {
+.arg-left {
   text-align: left;
 }
 
-.mil-right {
+.arg-right {
   text-align: right;
 }
 
 @media screen and (max-width: 576px) {
-  .mil-sm-center {
+  .arg-sm-center {
     text-align: center;
   }
 }
 
-.mil-suptitle {
+.arg-suptitle {
   position: relative;
   display: block;
   margin-bottom: 60px;
 }
-.mil-suptitle:before {
+.arg-suptitle:before {
   content: "";
   position: absolute;
   right: calc(100% + 30px);
@@ -444,43 +444,43 @@ a {
   background-color: rgb(255, 255, 255);
   opacity: 0.2;
 }
-.mil-suptitle.mil-suptitle-right {
+.arg-suptitle.arg-suptitle-right {
   text-align: right;
 }
-.mil-suptitle.mil-suptitle-right:before {
+.arg-suptitle.arg-suptitle-right:before {
   left: calc(100% + 30px);
 }
 @media screen and (max-width: 768px) {
-  .mil-suptitle.mil-suptitle-right {
+  .arg-suptitle.arg-suptitle-right {
     text-align: center;
   }
-  .mil-suptitle.mil-suptitle-right:before {
+  .arg-suptitle.arg-suptitle-right:before {
     display: none;
   }
 }
-.mil-suptitle.mil-suptitle-dark:before {
+.arg-suptitle.arg-suptitle-dark:before {
   background-color: rgb(28, 30, 28);
   opacity: 0.1;
 }
 @media screen and (max-width: 768px) {
-  .mil-suptitle {
+  .arg-suptitle {
     margin-bottom: 60px;
   }
 }
 
-.mil-divider {
+.arg-divider {
   width: 100%;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.mil-img-frame {
+.arg-img-frame {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-bottom: 140%;
 }
-.mil-img-frame img {
+.arg-img-frame img {
   position: absolute;
   top: 0;
   left: 0;
@@ -497,7 +497,7 @@ a {
 link
 
 ------------------------------------------- */
-.mil-link {
+.arg-link {
   cursor: pointer;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -510,7 +510,7 @@ link
   letter-spacing: 2px;
   font-size: 12px;
 }
-.mil-link svg {
+.arg-link svg {
   margin-left: 15px;
   border-radius: 50%;
   width: 40px;
@@ -520,38 +520,38 @@ link
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-link svg path {
+.arg-link svg path {
   fill: rgb(255, 255, 255);
 }
-.mil-link.mil-accent svg {
+.arg-link.arg-accent svg {
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-link.mil-accent svg path {
+.arg-link.arg-accent svg path {
   fill: rgb(122, 241, 122);
 }
-.mil-link.mil-dark svg {
+.arg-link.arg-dark svg {
   background-color: rgba(28, 30, 28, 0.1);
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-link.mil-dark svg path {
+.arg-link.arg-dark svg path {
   fill: rgb(28, 30, 28);
 }
-.mil-link:hover svg {
+.arg-link:hover svg {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
-.mil-link.mil-down-arrow svg {
+.arg-link.arg-down-arrow svg {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-.mil-link.mil-down-arrow:hover svg {
+.arg-link.arg-down-arrow:hover svg {
   -webkit-transform: scale(1.15) rotate(90deg);
           transform: scale(1.15) rotate(90deg);
 }
-.mil-link.mil-icon-left {
+.arg-link.arg-icon-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,13 +560,13 @@ link
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
-.mil-link.mil-icon-left svg {
+.arg-link.arg-icon-left svg {
   margin-left: 0;
   margin-right: 15px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.mil-link.mil-icon-left:hover svg {
+.arg-link.arg-icon-left:hover svg {
   -webkit-transform: scale(1.15) rotate(180deg);
           transform: scale(1.15) rotate(180deg);
 }
@@ -576,7 +576,7 @@ link
 button
 
 ------------------------------------------- */
-.mil-button {
+.arg-button {
   cursor: pointer;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -600,10 +600,10 @@ button
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-button span {
+.arg-button span {
   white-space: nowrap;
 }
-.mil-button svg {
+.arg-button svg {
   margin-left: 30px;
   border-radius: 50%;
   width: 40px;
@@ -613,56 +613,56 @@ button
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-button svg path {
+.arg-button svg path {
   fill: rgb(255, 255, 255);
 }
-.mil-button.mil-icon-button {
+.arg-button.arg-icon-button {
   padding: 15px;
 }
-.mil-button.mil-icon-button svg {
+.arg-button.arg-icon-button svg {
   margin-left: 0;
 }
-.mil-button.mil-icon-button-sm {
+.arg-button.arg-icon-button-sm {
   padding: 0;
   height: 40px;
 }
-.mil-button.mil-icon-button-sm svg {
+.arg-button.arg-icon-button-sm svg {
   margin-left: 0;
   background-color: rgb(255, 255, 255);
 }
-.mil-button.mil-icon-button-sm svg path {
+.arg-button.arg-icon-button-sm svg path {
   fill: rgb(28, 30, 28);
 }
-.mil-button:hover {
+.arg-button:hover {
   -webkit-transform: scale(1.015);
           transform: scale(1.015);
   -webkit-filter: brightness(110%);
           filter: brightness(110%);
 }
-.mil-button:hover svg {
+.arg-button:hover svg {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
-.mil-button.mil-arrow-down svg {
+.arg-button.arg-arrow-down svg {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-.mil-button.mil-arrow-down:hover {
+.arg-button.arg-arrow-down:hover {
   -webkit-transform: scale(1.015);
           transform: scale(1.015);
   -webkit-filter: brightness(110%);
           filter: brightness(110%);
 }
-.mil-button.mil-arrow-down:hover svg {
+.arg-button.arg-arrow-down:hover svg {
   -webkit-transform: scale(1.15) rotate(90deg);
           transform: scale(1.15) rotate(90deg);
 }
 @media screen and (max-width: 992px) {
-  .mil-button {
+  .arg-button {
     height: 60px;
     padding: 0 10px 0 40px;
   }
-  .mil-button svg {
+  .arg-button svg {
     margin-left: 25px;
   }
 }
@@ -682,7 +682,7 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
-  font-family: "Outfit", sans-serif;
+  font-faargy: "Outfit", sans-serif;
   color: rgb(28, 30, 28);
   border: none;
   border-bottom: solid 1px rgba(28, 30, 28, 0.2);
@@ -739,7 +739,7 @@ textarea {
 breadcrumbs
 
 ------------------------------------------- */
-.mil-breadcrumbs {
+.arg-breadcrumbs {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -748,7 +748,7 @@ breadcrumbs
           align-items: center;
   position: relative;
 }
-.mil-breadcrumbs:before {
+.arg-breadcrumbs:before {
   content: "";
   position: absolute;
   right: calc(100% + 30px);
@@ -757,15 +757,15 @@ breadcrumbs
   height: 1px;
   background-color: rgba(28, 30, 28, 0.1);
 }
-.mil-breadcrumbs li {
+.arg-breadcrumbs li {
   list-style-type: none;
 }
-.mil-breadcrumbs li:after {
+.arg-breadcrumbs li:after {
   content: "/";
   margin: 0 15px;
   color: rgb(28, 30, 28);
 }
-.mil-breadcrumbs li a {
+.arg-breadcrumbs li a {
   color: rgb(28, 30, 28);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -775,30 +775,30 @@ breadcrumbs
   -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-breadcrumbs li a:hover {
+.arg-breadcrumbs li a:hover {
   color: rgb(122, 241, 122);
 }
-.mil-breadcrumbs li:last-child {
+.arg-breadcrumbs li:last-child {
   margin-right: 0;
   cursor: not-allowed;
 }
-.mil-breadcrumbs li:last-child a {
+.arg-breadcrumbs li:last-child a {
   opacity: 0.4;
   pointer-events: none;
 }
-.mil-breadcrumbs li:last-child:after {
+.arg-breadcrumbs li:last-child:after {
   display: none;
 }
-.mil-breadcrumbs.mil-light:before {
+.arg-breadcrumbs.arg-light:before {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.mil-breadcrumbs.mil-light li:after {
+.arg-breadcrumbs.arg-light li:after {
   color: rgba(255, 255, 255, 0.9);
 }
-.mil-breadcrumbs.mil-light li a:hover {
+.arg-breadcrumbs.arg-light li a:hover {
   color: rgb(122, 241, 122) !important;
 }
-.mil-breadcrumbs.mil-center {
+.arg-breadcrumbs.arg-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -809,10 +809,10 @@ breadcrumbs
 backgrounds
 
 ------------------------------------------- */
-.mil-dark-bg {
+.arg-dark-bg {
   position: relative;
 }
-.mil-dark-bg:before {
+.arg-dark-bg:before {
   content: "";
   width: 100%;
   height: 100%;
@@ -822,17 +822,17 @@ backgrounds
   -webkit-backdrop-filter: invert(100%);
           backdrop-filter: invert(100%);
 }
-.mil-dark-bg .mi-invert-fix {
+.arg-dark-bg .mi-invert-fix {
   height: 100%;
   position: relative;
   pointer-events: none;
   z-index: 3;
 }
-.mil-dark-bg .mi-invert-fix .container {
+.arg-dark-bg .mi-invert-fix .container {
   pointer-events: all;
 }
 
-.mil-soft-bg {
+.arg-soft-bg {
   background-color: rgb(242, 242, 242);
 }
 
@@ -841,159 +841,159 @@ backgrounds
 spaces
 
 ------------------------------------------- */
-.mil-mr-30 {
+.arg-mr-30 {
   margin-right: 30px;
 }
 
-.mil-mb-5 {
+.arg-mb-5 {
   margin-bottom: 5px;
 }
 
-.mil-mb-10 {
+.arg-mb-10 {
   margin-bottom: 10px;
 }
 
-.mil-mb-15 {
+.arg-mb-15 {
   margin-bottom: 15px;
 }
 
-.mil-mb-20 {
+.arg-mb-20 {
   margin-bottom: 15px;
 }
 
-.mil-mb-30 {
+.arg-mb-30 {
   margin-bottom: 30px;
 }
 
-.mil-mb-60 {
+.arg-mb-60 {
   margin-bottom: 60px;
 }
 
-.mil-mb-90 {
+.arg-mb-90 {
   margin-bottom: 90px;
 }
 
-.mil-mb-120 {
+.arg-mb-120 {
   margin-bottom: 120px;
 }
 @media screen and (max-width: 992px) {
-  .mil-mb-120 {
+  .arg-mb-120 {
     margin-bottom: 90px;
   }
 }
 
-.mil-mt-suptitle-offset {
+.arg-mt-suptitle-offset {
   margin-top: 70px;
 }
 @media screen and (max-width: 992px) {
-  .mil-mt-suptitle-offset {
+  .arg-mt-suptitle-offset {
     margin-top: 30px;
   }
 }
 
-.mil-p-120-120 {
+.arg-p-120-120 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-120-120 {
+  .arg-p-120-120 {
     padding-top: 90px;
     padding-bottom: 90px;
   }
 }
 
-.mil-p-120-90 {
+.arg-p-120-90 {
   padding-top: 120px;
   padding-bottom: 90px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-120-90 {
+  .arg-p-120-90 {
     padding-top: 90px;
     padding-bottom: 60px;
   }
 }
 
-.mil-p-0-120 {
+.arg-p-0-120 {
   padding-bottom: 120px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-0-120 {
+  .arg-p-0-120 {
     padding-bottom: 90px;
   }
 }
 
-.mil-p-120-0 {
+.arg-p-120-0 {
   padding-top: 120px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-120-0 {
+  .arg-p-120-0 {
     padding-top: 90px;
   }
 }
 
-.mil-p-120-60 {
+.arg-p-120-60 {
   padding-top: 120px;
   padding-bottom: 60px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-120-60 {
+  .arg-p-120-60 {
     padding-top: 90px;
     padding-bottom: 30px;
   }
 }
 
-.mil-p-90-90 {
+.arg-p-90-90 {
   padding-top: 90px;
   padding-bottom: 90px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-90-90 {
+  .arg-p-90-90 {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 
-.mil-p-90-120 {
+.arg-p-90-120 {
   padding-top: 90px;
   padding-bottom: 120px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-90-120 {
+  .arg-p-90-120 {
     padding-top: 60px;
     padding-bottom: 90px;
   }
 }
 
-.mil-p-0-90 {
+.arg-p-0-90 {
   padding-bottom: 90px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-0-90 {
+  .arg-p-0-90 {
     padding-bottom: 60px;
   }
 }
 
-.mil-p-0-30 {
+.arg-p-0-30 {
   padding-bottom: 30px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-0-30 {
+  .arg-p-0-30 {
     padding-bottom: 0;
   }
 }
 
-.mil-p-120-30 {
+.arg-p-120-30 {
   padding-top: 120px;
   padding-bottom: 30px;
 }
 @media screen and (max-width: 992px) {
-  .mil-p-120-30 {
+  .arg-p-120-30 {
     padding-top: 90px;
     padding-bottom: 0;
   }
 }
 
-.mil-adaptive-right {
+.arg-adaptive-right {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1003,18 +1003,18 @@ spaces
           justify-content: flex-end;
 }
 @media screen and (max-width: 992px) {
-  .mil-adaptive-right {
+  .arg-adaptive-right {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
 }
 
-.mil-btn-space {
+.arg-btn-space {
   margin-right: 30px;
 }
 @media screen and (max-width: 500px) {
-  .mil-btn-space {
+  .arg-btn-space {
     margin-right: 50px;
     margin-bottom: 30px;
   }
@@ -1025,7 +1025,7 @@ spaces
 preloader
 
 ------------------------------------------- */
-.mil-preloader {
+.arg-preloader {
   position: fixed;
   z-index: 9;
   top: 0;
@@ -1034,13 +1034,13 @@ preloader
   height: 100vh;
   background-color: rgb(28, 30, 28);
 }
-.mil-preloader .mil-preloader-animation {
+.arg-preloader .arg-preloader-animation {
   opacity: 0;
   position: relative;
   height: 100vh;
   color: rgb(255, 255, 255);
 }
-.mil-preloader .mil-preloader-animation .mil-pos-abs {
+.arg-preloader .arg-preloader-animation .arg-pos-abs {
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -1054,34 +1054,34 @@ preloader
       -ms-flex-align: center;
           align-items: center;
 }
-.mil-preloader .mil-preloader-animation .mil-pos-abs p {
+.arg-preloader .arg-preloader-animation .arg-pos-abs p {
   opacity: 0;
   margin-right: 15px;
 }
 @media screen and (max-width: 992px) {
-  .mil-preloader .mil-preloader-animation .mil-pos-abs {
+  .arg-preloader .arg-preloader-animation .arg-pos-abs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mil-preloader .mil-preloader-animation .mil-pos-abs p {
+  .arg-preloader .arg-preloader-animation .arg-pos-abs p {
     margin-right: 0;
     margin-bottom: 10px;
   }
 }
-.mil-preloader .mil-preloader-animation .mil-pos-abs .mil-reveal-frame {
+.arg-preloader .arg-preloader-animation .arg-pos-abs .arg-reveal-frame {
   position: relative;
   padding: 0 30px;
 }
-.mil-preloader .mil-preloader-animation .mil-pos-abs .mil-reveal-frame .mil-reveal-box {
+.arg-preloader .arg-preloader-animation .arg-pos-abs .arg-reveal-frame .arg-reveal-box {
   z-index: 4;
   position: absolute;
   opacity: 0;
   height: 100%;
   background-color: rgb(122, 241, 122);
 }
-.mil-preloader.mil-hidden {
+.arg-preloader.arg-hidden {
   pointer-events: none;
 }
 
@@ -1090,7 +1090,7 @@ preloader
 cursor
 
 ------------------------------------------- */
-.mil-ball {
+.arg-ball {
   width: 20px;
   height: 20px;
   position: fixed;
@@ -1109,17 +1109,17 @@ cursor
           align-items: center;
   opacity: 0.1;
 }
-.mil-ball .mil-icon-1 {
+.arg-ball .arg-icon-1 {
   position: absolute;
   width: 40px;
   height: 40px;
   -webkit-transform: scale(0);
           transform: scale(0);
 }
-.mil-ball .mil-icon-1 svg {
+.arg-ball .arg-icon-1 svg {
   fill: rgba(255, 255, 255, 0.9);
 }
-.mil-ball .mil-more-text, .mil-ball .mil-choose-text {
+.arg-ball .arg-more-text, .arg-ball .arg-choose-text {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -1132,14 +1132,14 @@ cursor
   -webkit-transform: scale(0);
           transform: scale(0);
 }
-.mil-ball.mil-accent .mil-icon-1 svg {
+.arg-ball.arg-accent .arg-icon-1 svg {
   fill: rgb(28, 30, 28);
 }
-.mil-ball.mil-accent .mil-more-text, .mil-ball.mil-accent .mil-choose-text {
+.arg-ball.arg-accent .arg-more-text, .arg-ball.arg-accent .arg-choose-text {
   color: rgb(28, 30, 28);
 }
 @media screen and (max-width: 1200px) {
-  .mil-ball {
+  .arg-ball {
     display: none;
   }
 }
@@ -1149,7 +1149,7 @@ cursor
 hidden elements
 
 ------------------------------------------- */
-.mil-hidden-elements .mil-dodecahedron, .mil-hidden-elements .mil-lines, .mil-hidden-elements .mil-arrow {
+.arg-hidden-elements .arg-dodecahedron, .arg-hidden-elements .arg-lines, .arg-hidden-elements .arg-arrow {
   display: none;
 }
 
@@ -1162,7 +1162,7 @@ scrollbar
   display: none;
 }
 
-.mil-progress-track {
+.arg-progress-track {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -1171,13 +1171,13 @@ scrollbar
   height: 100%;
   background-color: rgb(28, 30, 28);
 }
-.mil-progress-track .mil-progress {
+.arg-progress-track .arg-progress {
   width: 4px;
   height: 0;
   background-color: rgb(122, 241, 122);
 }
 @media screen and (max-width: 992px) {
-  .mil-progress-track {
+  .arg-progress-track {
     display: none;
   }
 }
@@ -1189,7 +1189,7 @@ frame
 ------------------------------------------- */
 
 
-.mil-frame {
+.arg-frame {
   padding: 50px 60px 60px 60px;
   position: fixed;
   z-index: 2;
@@ -1208,19 +1208,19 @@ frame
   height: 100%;
 }
 @media screen and (max-width: 1200px) {
-  .mil-frame {
+  .arg-frame {
     padding: 30px;
   }
 }
 @media screen and (max-width: 1200px) {
-  .mil-frame {
+  .arg-frame {
     padding: 0;
     z-index: 999;
     height: 90px;
   }
 }
 @media screen and (max-width: 1200px) {
-  .mil-frame .mil-frame-top {
+  .arg-frame .arg-frame-top {
     height: 90px;
     background-color: rgba(28, 30, 28, 0.95);
     border-bottom: solid 1px rgba(230, 244, 233, 0.1);
@@ -1228,14 +1228,14 @@ frame
     -webkit-backdrop-filter: blur(8px);
             backdrop-filter: blur(8px);
   }
-  .mil-frame .mil-frame-top .mil-logo {
+  .arg-frame .arg-frame-top .arg-logo {
     color: rgb(255, 255, 255);
   }
-  .mil-frame .mil-frame-top .mil-menu-btn span, .mil-frame .mil-frame-top .mil-menu-btn span:after, .mil-frame .mil-frame-top .mil-menu-btn span:before {
+  .arg-frame .arg-frame-top .arg-menu-btn span, .arg-frame .arg-frame-top .arg-menu-btn span:after, .arg-frame .arg-frame-top .arg-menu-btn span:before {
     background: rgb(255, 255, 255);
   }
 }
-.mil-frame .mil-frame-bottom {
+.arg-frame .arg-frame-bottom {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1248,11 +1248,11 @@ frame
           align-items: flex-end;
 }
 @media screen and (max-width: 1200px) {
-  .mil-frame .mil-frame-bottom {
+  .arg-frame .arg-frame-bottom {
     display: none;
   }
 }
-.mil-frame .mil-frame-bottom .mil-current-page {
+.arg-frame .arg-frame-bottom .arg-current-page {
   pointer-events: none;
   font-weight: 500;
   text-transform: uppercase;
@@ -1263,14 +1263,14 @@ frame
   -webkit-transform: rotate(-90deg) translateX(138px) translateY(-138px);
           transform: rotate(-90deg) translateX(138px) translateY(-138px);
 }
-.mil-frame .mil-frame-bottom .mil-back-to-top {
+.arg-frame .arg-frame-bottom .arg-back-to-top {
   width: 300px;
   -webkit-transform: rotate(-90deg) translateX(130px) translateY(130px);
           transform: rotate(-90deg) translateX(130px) translateY(130px);
   pointer-events: all;
 }
 
-.mil-frame-top {
+.arg-frame-top {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -1282,7 +1282,7 @@ frame
           padding:0 20px;
           box-sizing: border-box;
 }
-.mil-frame-top .mil-logo {
+.arg-frame-top .arg-logo {
   pointer-events: all;
   color: rgb(28, 30, 28);
   display: flex;
@@ -1294,7 +1294,7 @@ frame
 menu button
 
 ------------------------------------------- */
-.mil-menu-btn {
+.arg-menu-btn {
   pointer-events: all;
   height: 28px;
   cursor: pointer;
@@ -1311,12 +1311,12 @@ menu button
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 @media screen and (max-width: 992px) {
-  .mil-menu-btn {
+  .arg-menu-btn {
     -webkit-transform: scale(0.85);
             transform: scale(0.85);
   }
 }
-.mil-menu-btn span, .mil-menu-btn span:after, .mil-menu-btn span:before {
+.arg-menu-btn span, .arg-menu-btn span:after, .arg-menu-btn span:before {
   content: "";
   display: block;
   width: 28px;
@@ -1327,28 +1327,28 @@ menu button
   -webkit-transition: inherit;
   transition: inherit;
 }
-.mil-menu-btn span {
+.arg-menu-btn span {
   position: relative;
 }
-.mil-menu-btn span:after, .mil-menu-btn span:before {
+.arg-menu-btn span:after, .arg-menu-btn span:before {
   position: absolute;
 }
-.mil-menu-btn span:before {
+.arg-menu-btn span:before {
   top: -9px;
 }
-.mil-menu-btn span:after {
+.arg-menu-btn span:after {
   width: 18px;
   top: 9px;
 }
-.mil-menu-btn.mil-active span {
+.arg-menu-btn.arg-active span {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-.mil-menu-btn.mil-active span:before {
+.arg-menu-btn.arg-active span:before {
   -webkit-transform: translate(0px, 9px) rotate(-90deg);
           transform: translate(0px, 9px) rotate(-90deg);
 }
-.mil-menu-btn.mil-active span:after {
+.arg-menu-btn.arg-active span:after {
   opacity: 0;
   width: 24px;
   -webkit-transform: translate(0px, -9px) rotate(-90deg);
@@ -1360,7 +1360,7 @@ menu button
 menu
 
 ------------------------------------------- */
-.mil-menu-frame {
+.arg-menu-frame {
   position: fixed;
   z-index: 9;
   width: 100%;
@@ -1371,10 +1371,10 @@ menu
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-menu-frame .container {
+.arg-menu-frame .container {
   pointer-events: none;
 }
-.mil-menu-frame .mil-frame-top {
+.arg-menu-frame .arg-frame-top {
   position: absolute;
   top: 0;
   left: 0;
@@ -1382,17 +1382,17 @@ menu
   padding: 50px 60px;
 }
 @media screen and (max-width: 1200px) {
-  .mil-menu-frame .mil-frame-top {
+  .arg-menu-frame .arg-frame-top {
     display: none;
   }
 }
-.mil-menu-frame .mil-frame-top .mil-logo {
+.arg-menu-frame .arg-frame-top .arg-logo {
   color: rgb(255, 255, 255);
 }
-.mil-menu-frame .mil-frame-top .mil-menu-btn span, .mil-menu-frame .mil-frame-top .mil-menu-btn span:after, .mil-menu-frame .mil-frame-top .mil-menu-btn span:before {
+.arg-menu-frame .arg-frame-top .arg-menu-btn span, .arg-menu-frame .arg-frame-top .arg-menu-btn span:after, .arg-menu-frame .arg-frame-top .arg-menu-btn span:before {
   background-color: rgb(255, 255, 255);
 }
-.mil-menu-frame .mil-main-menu {
+.arg-menu-frame .arg-main-menu {
   -webkit-transform: translateX(-30px);
           transform: translateX(-30px);
   opacity: 0;
@@ -1400,12 +1400,12 @@ menu
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 @media screen and (max-width: 1200px) {
-  .mil-menu-frame .mil-main-menu {
+  .arg-menu-frame .arg-main-menu {
     -webkit-transform: translateY(30px);
             transform: translateY(30px);
   }
 }
-.mil-menu-frame .mil-menu-right-frame {
+.arg-menu-frame .arg-menu-right-frame {
   padding-left: 60px;
   position: relative;
   height: 100vh;
@@ -1422,10 +1422,10 @@ menu
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-menu-frame .mil-menu-right-frame .mil-menu-right {
+.arg-menu-frame .arg-menu-right-frame .arg-menu-right {
   padding-bottom: 60px;
 }
-.mil-menu-frame .mil-menu-right-frame .mil-animation-in {
+.arg-menu-frame .arg-menu-right-frame .arg-animation-in {
   position: absolute;
   top: -320px;
   right: 0;
@@ -1436,23 +1436,23 @@ menu
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 @media screen and (max-width: 1200px) {
-  .mil-menu-frame .mil-menu-right-frame {
+  .arg-menu-frame .arg-menu-right-frame {
     display: none;
   }
 }
 @media screen and (max-height: 800px) {
-  .mil-menu-frame .mil-menu-right-frame {
+  .arg-menu-frame .arg-menu-right-frame {
     display: none;
   }
 }
-.mil-menu-frame.mil-active {
+.arg-menu-frame.arg-active {
   opacity: 1;
   pointer-events: all;
 }
-.mil-menu-frame.mil-active .container {
+.arg-menu-frame.arg-active .container {
   pointer-events: all;
 }
-.mil-menu-frame.mil-active .mil-main-menu {
+.arg-menu-frame.arg-active .arg-main-menu {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   -webkit-transform: translateY(0);
@@ -1461,14 +1461,14 @@ menu
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
 }
-.mil-menu-frame.mil-active .mil-menu-right-frame {
+.arg-menu-frame.arg-active .arg-menu-right-frame {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition-delay: 0.6s;
           transition-delay: 0.6s;
 }
-.mil-menu-frame.mil-active .mil-menu-right-frame .mil-animation-in {
+.arg-menu-frame.arg-active .arg-menu-right-frame .arg-animation-in {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -1476,37 +1476,37 @@ menu
           transition-delay: 0.8s;
 }
 
-.mil-menu-list li {
+.arg-menu-list li {
   list-style-type: none;
   margin-bottom: 15px;
 }
-.mil-menu-list li:last-child {
+.arg-menu-list li:last-child {
   margin-bottom: 0;
 }
-.mil-menu-list li a {
+.arg-menu-list li a {
   display: block;
   -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-menu-list li a:hover {
+.arg-menu-list li a:hover {
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
   color: rgb(255, 255, 255);
 }
-.mil-menu-list.mil-hori-list {
+.arg-menu-list.arg-hori-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.mil-menu-list.mil-hori-list li {
+.arg-menu-list.arg-hori-list li {
   margin-bottom: 0;
   margin-right: 30px;
 }
-.mil-menu-list.mil-dark li a {
+.arg-menu-list.arg-dark li a {
   color: rgb(28, 30, 28);
 }
 
-.mil-main-menu {
+.arg-main-menu {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1515,17 +1515,17 @@ menu
       -ms-flex-align: center;
           align-items: center;
 }
-.mil-main-menu ul {
+.arg-main-menu ul {
   padding: 0;
   margin: 0;
 }
-.mil-main-menu ul li {
+.arg-main-menu ul li {
   margin-bottom: 40px;
 }
-.mil-main-menu ul li:last-child {
+.arg-main-menu ul li:last-child {
   margin-bottom: 0;
 }
-.mil-main-menu ul li a {
+.arg-main-menu ul li a {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1540,11 +1540,11 @@ menu
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 @media screen and (max-width: 992px) {
-  .mil-main-menu ul li a {
+  .arg-main-menu ul li a {
     font-size: 26px;
   }
 }
-.mil-main-menu ul li a:before {
+.arg-main-menu ul li a:before {
   content: "";
   position: absolute;
   left: 0;
@@ -1557,47 +1557,47 @@ menu
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-main-menu ul li a:hover {
+.arg-main-menu ul li a:hover {
   color: rgb(255, 255, 255);
 }
-.mil-main-menu ul li a.mil-active {
+.arg-main-menu ul li a.arg-active {
   padding-left: 25px;
 }
-.mil-main-menu ul li a.mil-active:before {
+.arg-main-menu ul li a.arg-active:before {
   -webkit-transform: scale(1);
           transform: scale(1);
   background-color: rgb(122, 241, 122);
 }
-.mil-main-menu ul li.mil-active > a {
+.arg-main-menu ul li.arg-active > a {
   color: rgb(122, 241, 122);
 }
-.mil-main-menu ul li.mil-active > a:hover {
+.arg-main-menu ul li.arg-active > a:hover {
   color: rgb(122, 241, 122) !important;
   -webkit-filter: brightness(110%);
           filter: brightness(110%);
 }
-.mil-main-menu ul li.mil-has-children > a:hover {
+.arg-main-menu ul li.arg-has-children > a:hover {
   color: rgb(255, 255, 255);
   padding-left: 25px;
 }
-.mil-main-menu ul li.mil-has-children > a:hover:before {
+.arg-main-menu ul li.arg-has-children > a:hover:before {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.mil-main-menu ul li.mil-has-children ul {
+.arg-main-menu ul li.arg-has-children ul {
   padding-left: 25px;
   overflow: hidden;
   max-height: 0;
   -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-main-menu ul li.mil-has-children ul li {
+.arg-main-menu ul li.arg-has-children ul li {
   margin-bottom: 5px;
 }
-.mil-main-menu ul li.mil-has-children ul li:first-child {
+.arg-main-menu ul li.arg-has-children ul li:first-child {
   margin-top: 40px;
 }
-.mil-main-menu ul li.mil-has-children ul li a {
+.arg-main-menu ul li.arg-has-children ul li a {
   display: block;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
@@ -1605,24 +1605,24 @@ menu
   font-weight: 500;
   text-transform: uppercase;
 }
-.mil-main-menu ul li.mil-has-children ul li a:before {
+.arg-main-menu ul li.arg-has-children ul li a:before {
   display: none;
 }
-.mil-main-menu ul li.mil-has-children ul li a:hover {
+.arg-main-menu ul li.arg-has-children ul li a:hover {
   color: rgba(255, 255, 255, 0.8);
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
 }
-.mil-main-menu ul li.mil-has-children ul.mil-active {
+.arg-main-menu ul li.arg-has-children ul.arg-active {
   max-height: 200px;
 }
 @media screen and (max-width: 1200px) {
-  .mil-main-menu {
+  .arg-main-menu {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mil-main-menu ul {
+  .arg-main-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1634,24 +1634,24 @@ menu
         -ms-flex-align: center;
             align-items: center;
   }
-  .mil-main-menu ul li {
+  .arg-main-menu ul li {
     margin-bottom: 30px;
   }
-  .mil-main-menu ul li a {
+  .arg-main-menu ul li a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mil-main-menu ul li a:before {
+  .arg-main-menu ul li a:before {
     display: none;
   }
-  .mil-main-menu ul li a.mil-active {
+  .arg-main-menu ul li a.arg-active {
     padding-left: 0 !important;
   }
-  .mil-main-menu ul li.mil-has-children ul {
+  .arg-main-menu ul li.arg-has-children ul {
     padding-left: 0;
   }
-  .mil-main-menu ul li.mil-has-children ul li:first-child {
+  .arg-main-menu ul li.arg-has-children ul li:first-child {
     margin-top: 30px;
   }
 }
@@ -1661,10 +1661,10 @@ menu
 banner
 
 ------------------------------------------- */
-.mil-banner {
+.arg-banner {
   height: 100vh;
 }
-.mil-banner .container {
+.arg-banner .container {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1673,54 +1673,54 @@ banner
       -ms-flex-align: end;
           align-items: flex-end;
 }
-.mil-banner .mil-banner-content {
+.arg-banner .arg-banner-content {
   width: 100%;
   padding-bottom: 120px;
   position: relative;
 }
 @media screen and (max-width: 992px) {
-  .mil-banner .mil-banner-content {
+  .arg-banner .arg-banner-content {
     padding-bottom: 90px;
   }
 }
-.mil-banner .mil-lines-place {
+.arg-banner .arg-lines-place {
   position: absolute;
   left: 0;
   bottom: calc(100% + 120px);
 }
 
-.mil-inner-banner .mil-banner-content {
+.arg-inner-banner .arg-banner-content {
   padding: 150px 0 0 0;
 }
 @media screen and (max-width: 1200px) {
-  .mil-inner-banner .mil-banner-content {
+  .arg-inner-banner .arg-banner-content {
     padding: 180px 0 0 0;
   }
 }
 
-.mil-banner-personal {
+.arg-banner-personal {
   height: 100vh;
   background-color: rgba(28, 30, 28, 0.1);
 }
-.mil-banner-personal .mil-banner-content {
+.arg-banner-personal .arg-banner-content {
   position: relative;
   padding-top: 90px;
 }
 @media screen and (max-width: 992px) {
-  .mil-banner-personal .mil-banner-content {
+  .arg-banner-personal .arg-banner-content {
     padding-top: 180px;
   }
 }
-.mil-banner-personal .mil-banner-content .mil-personal-text {
+.arg-banner-personal .arg-banner-content .arg-personal-text {
   margin-bottom: 300px;
 }
 @media screen and (max-width: 992px) {
-  .mil-banner-personal .mil-banner-content .mil-personal-text {
+  .arg-banner-personal .arg-banner-content .arg-personal-text {
     margin-bottom: 80px;
     text-align: center;
   }
 }
-.mil-banner-personal .mil-banner-content .mil-banner-panel {
+.arg-banner-personal .arg-banner-content .arg-banner-panel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1739,7 +1739,7 @@ banner
   width: 100%;
 }
 @media screen and (max-width: 992px) {
-  .mil-banner-personal .mil-banner-content .mil-banner-panel {
+  .arg-banner-personal .arg-banner-content .arg-banner-panel {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1747,18 +1747,18 @@ banner
     height: auto;
     padding: 60px 30px;
   }
-  .mil-banner-personal .mil-banner-content .mil-banner-panel h5 {
+  .arg-banner-personal .arg-banner-content .arg-banner-panel h5 {
     margin-bottom: 60px;
     text-align: center;
     width: 80%;
   }
 }
-.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right {
+.arg-banner-personal .arg-banner-content .arg-banner-panel .arg-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right .mil-social-frame {
+.arg-banner-personal .arg-banner-content .arg-banner-panel .arg-right .arg-social-frame {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1776,48 +1776,48 @@ banner
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right .mil-social-frame:hover {
+.arg-banner-personal .arg-banner-content .arg-banner-panel .arg-right .arg-social-frame:hover {
   -webkit-transform: scale(1.015);
           transform: scale(1.015);
 }
 @media screen and (max-width: 992px) {
-  .mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right {
+  .arg-banner-personal .arg-banner-content .arg-banner-panel .arg-right {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mil-banner-personal .mil-banner-content .mil-banner-panel .mil-right .mil-social-frame {
+  .arg-banner-personal .arg-banner-content .arg-banner-panel .arg-right .arg-social-frame {
     margin-right: 0;
     margin-bottom: 30px;
     height: 60px;
   }
 }
-.mil-banner-personal .mil-banner-content .mil-banner-panel .mil-button {
+.arg-banner-personal .arg-banner-content .arg-banner-panel .arg-button {
   margin: 0 !important;
 }
 @media screen and (max-width: 992px) {
-  .mil-banner-personal .mil-banner-content .mil-banner-panel {
+  .arg-banner-personal .arg-banner-content .arg-banner-panel {
     bottom: 0;
     top: auto;
   }
 }
 @media screen and (max-width: 768px) {
-  .mil-banner-personal .mil-banner-content .mil-banner-panel {
+  .arg-banner-personal .arg-banner-content .arg-banner-panel {
     position: static;
     margin-bottom: 90px;
   }
 }
 @media screen and (max-width: 992px) {
-  .mil-banner-personal {
+  .arg-banner-personal {
     height: auto;
   }
 }
 
-.mil-portrait-frame {
+.arg-portrait-frame {
   position: relative;
 }
-.mil-portrait-frame img {
+.arg-portrait-frame img {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -1825,7 +1825,7 @@ banner
   -o-object-fit: contain;
      object-fit: contain;
 }
-.mil-portrait-frame .mil-nimbus {
+.arg-portrait-frame .arg-nimbus {
   background: radial-gradient(50% 50% at 50% 50%, rgb(122, 241, 122) 0%, rgba(28, 30, 28, 0) 100%);
   width: 100%;
   padding-bottom: 100%;
@@ -1833,10 +1833,10 @@ banner
   opacity: 0.6;
 }
 @media screen and (max-width: 768px) {
-  .mil-portrait-frame {
+  .arg-portrait-frame {
     height: 400px;
   }
-  .mil-portrait-frame img {
+  .arg-portrait-frame img {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
@@ -1849,7 +1849,7 @@ banner
 circle text
 
 ------------------------------------------- */
-.mil-circle-text {
+.arg-circle-text {
   position: absolute;
   right: 0;
   bottom: 90px;
@@ -1865,13 +1865,13 @@ circle text
   width: 140px;
   height: 140px;
 }
-.mil-circle-text .mil-ct-svg {
+.arg-circle-text .arg-ct-svg {
   -webkit-transform: scale(2);
           transform: scale(2);
   width: 140px;
   height: 140px;
 }
-.mil-circle-text .mil-ct-svg text {
+.arg-circle-text .arg-ct-svg text {
   fill: rgba(230, 244, 233, 0.4);
   text-transform: uppercase;
   font-size: 12px;
@@ -1879,14 +1879,14 @@ circle text
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-circle-text .mil-button {
+.arg-circle-text .arg-button {
   position: absolute;
 }
-.mil-circle-text:hover svg text {
+.arg-circle-text:hover svg text {
   fill: rgb(255, 255, 255);
 }
 @media screen and (max-width: 992px) {
-  .mil-circle-text {
+  .arg-circle-text {
     display: none;
   }
 }
@@ -1924,26 +1924,26 @@ lines
             transform: translateY(-75px);
   }
 }
-.mil-lines-place .mil-lines {
+.arg-lines-place .arg-lines {
   opacity: 0.05;
   pointer-events: none;
 }
 @media screen and (max-width: 992px) {
-  .mil-lines-place .mil-lines {
+  .arg-lines-place .arg-lines {
     display: none;
   }
 }
-.mil-lines-place .mil-lines path, .mil-lines-place .mil-lines rect, .mil-lines-place .mil-lines line {
+.arg-lines-place .arg-lines path, .arg-lines-place .arg-lines rect, .arg-lines-place .arg-lines line {
   stroke: rgb(28, 30, 28);
 }
-.mil-lines-place .mil-lines .mil-move {
+.arg-lines-place .arg-lines .arg-move {
   -webkit-animation: move 10s linear infinite;
           animation: move 10s linear infinite;
 }
-.mil-lines-place.mil-light .mil-lines {
+.arg-lines-place.arg-light .arg-lines {
   opacity: 0.2;
 }
-.mil-lines-place.mil-light .mil-lines path, .mil-lines-place.mil-light .mil-lines rect, .mil-lines-place.mil-light .mil-lines line {
+.arg-lines-place.arg-light .arg-lines path, .arg-lines-place.arg-light .arg-lines rect, .arg-lines-place.arg-light .arg-lines line {
   stroke: rgb(255, 255, 255);
 }
 
@@ -1952,7 +1952,7 @@ lines
 dodecahedron
 
 ------------------------------------------- */
-.mil-animation-frame {
+.arg-animation-frame {
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -1962,7 +1962,7 @@ dodecahedron
   pointer-events: none;
 }
 
-.mil-animation {
+.arg-animation {
   position: absolute;
   display: inline-block;
   width: 300px;
@@ -1971,69 +1971,69 @@ dodecahedron
   pointer-events: none;
 }
 
-.mil-position-1 {
+.arg-position-1 {
   top: 100px;
   right: 100px;
 }
-.mil-position-1 .mil-pentagon div {
+.arg-position-1 .arg-pentagon div {
   border-top: 0.1px solid rgb(255, 255, 255);
 }
 
-.mil-position-2 {
+.arg-position-2 {
   top: -60px;
   left: 15%;
 }
-.mil-position-2 .mil-pentagon div {
+.arg-position-2 .arg-pentagon div {
   border-top: 1px solid rgb(255, 255, 255);
 }
-.mil-position-2 .mil-dodecahedron {
+.arg-position-2 .arg-dodecahedron {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
 @media screen and (max-width: 1400px) {
-  .mil-position-2 {
+  .arg-position-2 {
     display: none;
   }
 }
 
-.mil-position-3 {
+.arg-position-3 {
   bottom: -100px;
   right: 35%;
 }
-.mil-position-3 .mil-pentagon div {
+.arg-position-3 .arg-pentagon div {
   border-top: 1px solid rgb(255, 255, 255);
 }
-.mil-position-3 .mil-dodecahedron {
+.arg-position-3 .arg-dodecahedron {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 @media screen and (max-width: 1400px) {
-  .mil-position-3 {
+  .arg-position-3 {
     display: none;
   }
 }
 
-.mil-position-4 {
+.arg-position-4 {
   top: -60px;
   right: 20%;
 }
-.mil-position-4 .mil-pentagon div {
+.arg-position-4 .arg-pentagon div {
   border-top: 0.1px solid rgb(255, 255, 255);
 }
-.mil-position-4 .mil-dodecahedron {
+.arg-position-4 .arg-dodecahedron {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
 @media screen and (max-width: 1400px) {
-  .mil-position-4 {
+  .arg-position-4 {
     display: none;
   }
 }
-.mil-position-4.mil-dark .mil-pentagon div {
+.arg-position-4.arg-dark .arg-pentagon div {
   border-top: 0.1px solid rgb(28, 30, 28);
 }
 
-.mil-dodecahedron {
+.arg-dodecahedron {
   position: relative;
   left: 100px;
   top: 40px;
@@ -2065,88 +2065,88 @@ dodecahedron
   }
 }
 
-.mil-pentagon {
+.arg-pentagon {
   position: absolute;
   width: 100px;
 }
-.mil-pentagon:nth-child(1) {
+.arg-pentagon:nth-child(1) {
   -webkit-transform: rotateY(0.2turn) translateZ(69px) rotateX(26.5deg);
           transform: rotateY(0.2turn) translateZ(69px) rotateX(26.5deg);
 }
-.mil-pentagon:nth-child(6) {
+.arg-pentagon:nth-child(6) {
   bottom: 0;
   -webkit-transform: rotateY(0.2turn) translateZ(-69px) rotateX(206.5deg);
           transform: rotateY(0.2turn) translateZ(-69px) rotateX(206.5deg);
 }
-.mil-pentagon:nth-child(2) {
+.arg-pentagon:nth-child(2) {
   -webkit-transform: rotateY(0.4turn) translateZ(69px) rotateX(26.5deg);
           transform: rotateY(0.4turn) translateZ(69px) rotateX(26.5deg);
 }
-.mil-pentagon:nth-child(7) {
+.arg-pentagon:nth-child(7) {
   bottom: 0;
   -webkit-transform: rotateY(0.4turn) translateZ(-69px) rotateX(206.5deg);
           transform: rotateY(0.4turn) translateZ(-69px) rotateX(206.5deg);
 }
-.mil-pentagon:nth-child(3) {
+.arg-pentagon:nth-child(3) {
   -webkit-transform: rotateY(0.6turn) translateZ(69px) rotateX(26.5deg);
           transform: rotateY(0.6turn) translateZ(69px) rotateX(26.5deg);
 }
-.mil-pentagon:nth-child(8) {
+.arg-pentagon:nth-child(8) {
   bottom: 0;
   -webkit-transform: rotateY(0.6turn) translateZ(-69px) rotateX(206.5deg);
           transform: rotateY(0.6turn) translateZ(-69px) rotateX(206.5deg);
 }
-.mil-pentagon:nth-child(4) {
+.arg-pentagon:nth-child(4) {
   -webkit-transform: rotateY(0.8turn) translateZ(69px) rotateX(26.5deg);
           transform: rotateY(0.8turn) translateZ(69px) rotateX(26.5deg);
 }
-.mil-pentagon:nth-child(9) {
+.arg-pentagon:nth-child(9) {
   bottom: 0;
   -webkit-transform: rotateY(0.8turn) translateZ(-69px) rotateX(206.5deg);
           transform: rotateY(0.8turn) translateZ(-69px) rotateX(206.5deg);
 }
-.mil-pentagon:nth-child(5) {
+.arg-pentagon:nth-child(5) {
   -webkit-transform: rotateY(1turn) translateZ(69px) rotateX(26.5deg);
           transform: rotateY(1turn) translateZ(69px) rotateX(26.5deg);
 }
-.mil-pentagon:nth-child(10) {
+.arg-pentagon:nth-child(10) {
   bottom: 0;
   -webkit-transform: rotateY(1turn) translateZ(-69px) rotateX(206.5deg);
           transform: rotateY(1turn) translateZ(-69px) rotateX(206.5deg);
 }
-.mil-pentagon:nth-child(11) {
+.arg-pentagon:nth-child(11) {
   -webkit-transform: translateZ(69px) rotateX(-90deg);
           transform: translateZ(69px) rotateX(-90deg);
 }
-.mil-pentagon:nth-child(12) {
+.arg-pentagon:nth-child(12) {
   bottom: 0;
   -webkit-transform: translateZ(-69px) rotateX(90deg);
           transform: translateZ(-69px) rotateX(90deg);
 }
-.mil-pentagon div {
+.arg-pentagon div {
   position: absolute;
   width: 100px;
   height: 69px;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
-.mil-pentagon div:nth-child(1) {
+.arg-pentagon div:nth-child(1) {
   -webkit-transform: rotate(0.2turn);
           transform: rotate(0.2turn);
 }
-.mil-pentagon div:nth-child(2) {
+.arg-pentagon div:nth-child(2) {
   -webkit-transform: rotate(0.4turn);
           transform: rotate(0.4turn);
 }
-.mil-pentagon div:nth-child(3) {
+.arg-pentagon div:nth-child(3) {
   -webkit-transform: rotate(0.6turn);
           transform: rotate(0.6turn);
 }
-.mil-pentagon div:nth-child(4) {
+.arg-pentagon div:nth-child(4) {
   -webkit-transform: rotate(0.8turn);
           transform: rotate(0.8turn);
 }
-.mil-pentagon div:nth-child(5) {
+.arg-pentagon div:nth-child(5) {
   -webkit-transform: rotate(1turn);
           transform: rotate(1turn);
 }
@@ -2185,7 +2185,7 @@ dodecahedron
 about
 
 ------------------------------------------- */
-.mil-about-quote {
+.arg-about-quote {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2196,13 +2196,13 @@ about
       -ms-flex-align: center;
           align-items: center;
 }
-.mil-about-quote .mil-avatar {
+.arg-about-quote .arg-avatar {
   width: 90px;
   height: 90px;
   border-radius: 50%;
   position: relative;
 }
-.mil-about-quote .mil-avatar:after {
+.arg-about-quote .arg-avatar:after {
   content: ' " ';
   color: rgb(28, 30, 28);
   width: 30px;
@@ -2221,7 +2221,7 @@ about
           justify-content: center;
   font-size: 36px;
 }
-.mil-about-quote .mil-avatar img {
+.arg-about-quote .arg-avatar img {
   border-radius: 50%;
   width: 100%;
   height: 100%;
@@ -2230,32 +2230,32 @@ about
   -o-object-position: top;
      object-position: top;
 }
-.mil-about-quote .mil-quote {
+.arg-about-quote .arg-quote {
   padding-left: 30px;
   width: calc(100% - 90px);
 }
 @media screen and (max-width: 992px) {
-  .mil-about-quote .mil-avatar {
+  .arg-about-quote .arg-avatar {
     width: 70px;
     height: 70px;
   }
-  .mil-about-quote .mil-avatar:after {
+  .arg-about-quote .arg-avatar:after {
     padding-top: 7px;
     width: 25px;
     height: 25px;
     font-size: 24px;
   }
-  .mil-about-quote .mil-quote {
+  .arg-about-quote .arg-quote {
     font-size: 16px;
     padding-left: 30px;
     width: calc(100% - 70px);
   }
 }
 
-.mil-about-photo {
+.arg-about-photo {
   position: relative;
 }
-.mil-about-photo .mil-lines-place {
+.arg-about-photo .arg-lines-place {
   position: absolute;
   top: -120px;
   left: -27%;
@@ -2266,15 +2266,15 @@ about
 partners
 
 ------------------------------------------- */
-.mil-infinite-show .swiper-wrapper {
+.arg-infinite-show .swiper-wrapper {
   -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
 }
 
-.mil-partner-frame {
+.arg-partner-frame {
   display: block;
 }
-.mil-partner-frame img {
+.arg-partner-frame img {
   width: 100%;
 }
 
@@ -2283,7 +2283,7 @@ partners
 services
 
 ------------------------------------------- */
-.mil-complex-text {
+.arg-complex-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2291,23 +2291,23 @@ services
       -ms-flex-align: center;
           align-items: center;
 }
-.mil-complex-text .mil-button {
+.arg-complex-text .arg-button {
   margin-left: 30px;
 }
 @media screen and (max-width: 768px) {
-  .mil-complex-text {
+  .arg-complex-text {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mil-complex-text .mil-button {
+  .arg-complex-text .arg-button {
     margin-left: 0;
     margin-top: 60px;
   }
 }
 
-.mil-text-image {
+.arg-text-image {
   height: 80px;
   width: 250px;
   display: inline-block;
@@ -2315,7 +2315,7 @@ services
   border-radius: 70px;
   margin-right: 30px;
 }
-.mil-text-image img {
+.arg-text-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -2325,22 +2325,22 @@ services
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-text-image:hover img {
+.arg-text-image:hover img {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 @media screen and (max-width: 768px) {
-  .mil-text-image {
+  .arg-text-image {
     display: none;
   }
 }
 
-.mil-service-card-sm {
+.arg-service-card-sm {
   position: relative;
   display: block;
   padding: 60px 30px;
 }
-.mil-service-card-sm p {
+.arg-service-card-sm p {
   opacity: 0;
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
@@ -2352,14 +2352,14 @@ services
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-service-card-sm .mil-button {
+.arg-service-card-sm .arg-button {
   -webkit-transform: scale(0.3);
           transform: scale(0.3);
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   opacity: 0.4;
 }
-.mil-service-card-sm:before {
+.arg-service-card-sm:before {
   content: "";
   position: absolute;
   top: 0;
@@ -2370,28 +2370,28 @@ services
   -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-service-card-sm:hover p {
+.arg-service-card-sm:hover p {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
-.mil-service-card-sm:hover .mil-button {
+.arg-service-card-sm:hover .arg-button {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
   opacity: 1;
 }
-.mil-service-card-sm:hover:before {
+.arg-service-card-sm:hover:before {
   width: 100%;
 }
 @media screen and (max-width: 992px) {
-  .mil-service-card-sm p {
+  .arg-service-card-sm p {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
-  .mil-service-card-sm .mil-button {
+  .arg-service-card-sm .arg-button {
     -webkit-transform: scale(1);
             transform: scale(1);
     -webkit-filter: grayscale(0);
@@ -2400,57 +2400,57 @@ services
   }
 }
 
-.mil-services-grid {
+.arg-services-grid {
   border-top: solid 1px rgba(255, 255, 255, 0.1);
 }
-.mil-services-grid .mil-services-grid-item {
+.arg-services-grid .arg-services-grid-item {
   border-right: solid 1px rgba(255, 255, 255, 0.1);
 }
-.mil-services-grid .mil-services-grid-item:first-child {
+.arg-services-grid .arg-services-grid-item:first-child {
   border-left: solid 1px rgba(255, 255, 255, 0.1);
 }
 @media screen and (max-width: 992px) {
-  .mil-services-grid {
+  .arg-services-grid {
     padding-bottom: 90px;
   }
-  .mil-services-grid .mil-services-grid-item {
+  .arg-services-grid .arg-services-grid-item {
     border-bottom: solid 1px rgba(255, 255, 255, 0.1);
   }
-  .mil-services-grid .mil-services-grid-item:nth-child(3) {
+  .arg-services-grid .arg-services-grid-item:nth-child(3) {
     border-left: solid 1px rgba(255, 255, 255, 0.1);
   }
 }
 @media screen and (max-width: 768px) {
-  .mil-services-grid {
+  .arg-services-grid {
     padding-bottom: 90px;
   }
-  .mil-services-grid .mil-services-grid-item {
+  .arg-services-grid .arg-services-grid-item {
     border-left: solid 1px rgba(255, 255, 255, 0.1);
     border-bottom: solid 1px rgba(255, 255, 255, 0.1);
   }
 }
 
-.mil-service-card-lg {
+.arg-service-card-lg {
   display: block;
 }
-.mil-service-card-lg .mil-descr {
+.arg-service-card-lg .arg-descr {
   padding-right: 30px;
 }
-.mil-service-card-lg.mil-offset {
+.arg-service-card-lg.arg-offset {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 @media screen and (max-width: 992px) {
-  .mil-service-card-lg.mil-offset {
+  .arg-service-card-lg.arg-offset {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 992px) {
-  .mil-service-card-lg {
+  .arg-service-card-lg {
     margin-bottom: 60px;
   }
 }
-.mil-service-card-lg.mil-other-card {
+.arg-service-card-lg.arg-other-card {
   overflow: hidden;
   position: relative;
   border: solid 1px rgb(229, 229, 229);
@@ -2458,25 +2458,25 @@ services
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-service-card-lg.mil-other-card .mil-descr {
+.arg-service-card-lg.arg-other-card .arg-descr {
   padding-right: 0;
 }
-.mil-service-card-lg.mil-other-card:hover {
+.arg-service-card-lg.arg-other-card:hover {
   background-color: rgb(122, 241, 122);
 }
-.mil-service-card-lg.mil-other-card:hover .mil-link svg {
+.arg-service-card-lg.arg-other-card:hover .arg-link svg {
   background-color: rgb(28, 30, 28);
 }
-.mil-service-card-lg.mil-other-card:hover .mil-link svg path {
+.arg-service-card-lg.arg-other-card:hover .arg-link svg path {
   fill: rgb(122, 241, 122);
 }
 @media screen and (max-width: 1200px) {
-  .mil-service-card-lg.mil-other-card {
+  .arg-service-card-lg.arg-other-card {
     padding: 30px;
   }
 }
 
-.mil-service-list li {
+.arg-service-list li {
   border-bottom: solid 1px rgba(255, 255, 255, 0.1);
   list-style-type: none;
   padding: 15px 0;
@@ -2485,16 +2485,16 @@ services
   font-weight: 500;
   font-size: 12px;
 }
-.mil-service-list li:first-child {
+.arg-service-list li:first-child {
   border-top: solid 1px rgba(255, 255, 255, 0.1);
 }
-.mil-service-list.mil-light li {
+.arg-service-list.arg-light li {
   color: rgba(255, 255, 255, 0.6);
 }
-.mil-service-list.mil-dark li {
+.arg-service-list.arg-dark li {
   border-bottom: solid 1px rgba(28, 30, 28, 0.1);
 }
-.mil-service-list.mil-dark li:first-child {
+.arg-service-list.arg-dark li:first-child {
   border-top: solid 1px rgba(28, 30, 28, 0.1);
 }
 
@@ -2503,12 +2503,12 @@ services
 team
 
 ------------------------------------------- */
-.mil-team-card {
+.arg-team-card {
   position: relative;
   overflow: hidden;
   padding-bottom: 130%;
 }
-.mil-team-card:after {
+.arg-team-card:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -2519,7 +2519,7 @@ team
   -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-team-card img {
+.arg-team-card img {
   position: absolute;
   top: 0;
   left: 0;
@@ -2534,17 +2534,17 @@ team
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-team-card.mil-offset-card {
+.arg-team-card.arg-offset-card {
   -webkit-transform: translateY(60px);
           transform: translateY(60px);
 }
 @media screen and (max-width: 992px) {
-  .mil-team-card.mil-offset-card {
+  .arg-team-card.arg-offset-card {
     -webkit-transform: none;
             transform: none;
   }
 }
-.mil-team-card .mil-description {
+.arg-team-card .arg-description {
   opacity: 0;
   text-align: center;
   background-color: rgba(28, 30, 28, 0.8);
@@ -2568,7 +2568,7 @@ team
   -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-team-card .mil-description .mil-secrc-text {
+.arg-team-card .arg-description .arg-secrc-text {
   opacity: 0;
   -webkit-transform: translateY(15px);
           transform: translateY(15px);
@@ -2577,26 +2577,26 @@ team
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
-.mil-team-card .mil-description .mil-secrc-text a {
+.arg-team-card .arg-description .arg-secrc-text a {
   color: rgb(255, 255, 255);
   -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-team-card .mil-description .mil-secrc-text a:hover {
+.arg-team-card .arg-description .arg-secrc-text a:hover {
   color: rgb(122, 241, 122);
 }
-.mil-team-card:hover img {
+.arg-team-card:hover img {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.mil-team-card:hover:after {
+.arg-team-card:hover:after {
   width: 100%;
 }
-.mil-team-card:hover .mil-description {
+.arg-team-card:hover .arg-description {
   opacity: 1;
   pointer-events: all;
 }
-.mil-team-card:hover .mil-description .mil-secrc-text {
+.arg-team-card:hover .arg-description .arg-secrc-text {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -2604,10 +2604,10 @@ team
           transition-delay: 0.1s;
 }
 
-.mil-team-list {
+.arg-team-list {
   position: relative;
 }
-.mil-team-list .mil-lines-place {
+.arg-team-list .arg-lines-place {
   position: absolute;
   top: -120px;
   left: -22.5%;
@@ -2618,38 +2618,38 @@ team
 social icons
 
 ------------------------------------------- */
-.mil-social-icons {
+.arg-social-icons {
   padding: 0;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.mil-social-icons.mil-center {
+.arg-social-icons.arg-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.mil-social-icons li {
+.arg-social-icons li {
   list-style-type: none;
   margin-right: 15px;
 }
-.mil-social-icons li:last-child {
+.arg-social-icons li:last-child {
   margin-right: 0;
 }
-.mil-social-icons li a {
+.arg-social-icons li a {
   color: rgb(255, 255, 255);
   font-size: 18px;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-social-icons li a:hover {
+.arg-social-icons li a:hover {
   color: rgb(122, 241, 122);
 }
-.mil-social-icons.mil-dark li a {
+.arg-social-icons.arg-dark li a {
   color: rgb(28, 30, 28);
 }
-.mil-social-icons.mil-dark li a:hover {
+.arg-social-icons.arg-dark li a:hover {
   color: rgb(122, 241, 122);
 }
 
@@ -2658,7 +2658,7 @@ social icons
 revievs
 
 ------------------------------------------- */
-.mil-revi-pagination {
+.arg-revi-pagination {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2667,12 +2667,12 @@ revievs
           justify-content: center;
 }
 @media screen and (max-width: 992px) {
-  .mil-revi-pagination {
+  .arg-revi-pagination {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
-.mil-revi-pagination .swiper-pagination-bullet {
+.arg-revi-pagination .swiper-pagination-bullet {
   padding: 0;
   width: 110px;
   height: 110px;
@@ -2685,24 +2685,24 @@ revievs
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1) !important;
 }
 @media screen and (max-width: 992px) {
-  .mil-revi-pagination .swiper-pagination-bullet {
+  .arg-revi-pagination .swiper-pagination-bullet {
     width: 90px;
     height: 90px;
   }
 }
-.mil-revi-pagination .swiper-pagination-bullet:nth-child(2n) {
+.arg-revi-pagination .swiper-pagination-bullet:nth-child(2n) {
   margin-top: 30px !important;
 }
 @media screen and (max-width: 992px) {
-  .mil-revi-pagination .swiper-pagination-bullet:nth-child(2n) {
+  .arg-revi-pagination .swiper-pagination-bullet:nth-child(2n) {
     margin-top: 0 !important;
   }
 }
-.mil-revi-pagination .swiper-pagination-bullet:hover {
+.arg-revi-pagination .swiper-pagination-bullet:hover {
   -webkit-box-shadow: inset 0 0 0 4px rgb(255, 255, 255);
           box-shadow: inset 0 0 0 4px rgb(255, 255, 255);
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot {
   background-color: red;
   width: 90px;
   height: 90px;
@@ -2713,54 +2713,54 @@ revievs
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1) !important;
 }
 @media screen and (max-width: 992px) {
-  .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot {
+  .arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot {
     width: 70px;
     height: 70px;
   }
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-1 {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot.arg-slide-1 {
   background-image: url(../img/faces/customers/1.jpg);
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-2 {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot.arg-slide-2 {
   background-image: url(../img/faces/customers/2.jpg);
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-3 {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot.arg-slide-3 {
   background-image: url(../img/faces/customers/3.jpg);
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-4 {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot.arg-slide-4 {
   background-image: url(../img/faces/customers/4.jpg);
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-5 {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot.arg-slide-5 {
   background-image: url(../img/faces/customers/5.jpg);
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-6 {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot.arg-slide-6 {
   background-image: url(../img/faces/customers/6.jpg);
 }
-.mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-7 {
+.arg-revi-pagination .swiper-pagination-bullet .arg-custom-dot.arg-slide-7 {
   background-image: url(../img/faces/customers/7.jpg);
 }
-.mil-revi-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.arg-revi-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   -webkit-box-shadow: inset 0 0 0 4px rgb(122, 241, 122);
           box-shadow: inset 0 0 0 4px rgb(122, 241, 122);
 }
 
-.mil-quote-icon {
+.arg-quote-icon {
   display: block;
   margin: 0 auto;
   width: 40px;
   height: 40px;
   margin-bottom: 15px;
 }
-.mil-quote-icon path {
+.arg-quote-icon path {
   fill: rgb(122, 241, 122);
 }
 
-.mil-slider-nav {
+.arg-slider-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.mil-slider-nav .mil-slider-arrow {
+.arg-slider-nav .arg-slider-arrow {
   width: 40px;
   height: 40px;
   padding: 10px;
@@ -2770,27 +2770,27 @@ revievs
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-slider-nav .mil-slider-arrow svg path {
+.arg-slider-nav .arg-slider-arrow svg path {
   fill: rgb(122, 241, 122);
 }
-.mil-slider-nav .mil-slider-arrow.mil-prev {
+.arg-slider-nav .arg-slider-arrow.arg-prev {
   margin-right: 10px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.mil-slider-nav .mil-slider-arrow.swiper-button-disabled {
+.arg-slider-nav .arg-slider-arrow.swiper-button-disabled {
   opacity: 0.1;
   cursor: not-allowed;
 }
-.mil-slider-nav .mil-slider-arrow:hover {
+.arg-slider-nav .arg-slider-arrow:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
-.mil-slider-nav .mil-slider-arrow:hover.mil-prev {
+.arg-slider-nav .arg-slider-arrow:hover.arg-prev {
   -webkit-transform: rotate(180deg) scale(1.15);
           transform: rotate(180deg) scale(1.15);
 }
-.mil-slider-nav.mil-reviews-nav {
+.arg-slider-nav.arg-reviews-nav {
   position: absolute;
   top: 160px;
   left: 0;
@@ -2800,14 +2800,14 @@ revievs
           justify-content: space-between;
 }
 @media screen and (max-width: 992px) {
-  .mil-slider-nav.mil-reviews-nav {
+  .arg-slider-nav.arg-reviews-nav {
     top: 0;
   }
 }
-.mil-slider-nav.mil-soft .mil-slider-arrow {
+.arg-slider-nav.arg-soft .arg-slider-arrow {
   background-color: rgb(229, 229, 229);
 }
-.mil-slider-nav.mil-soft .mil-slider-arrow svg path {
+.arg-slider-nav.arg-soft .arg-slider-arrow svg path {
   fill: rgb(28, 30, 28);
 }
 
@@ -2816,16 +2816,16 @@ revievs
 blog
 
 ------------------------------------------- */
-.mil-blog-card {
+.arg-blog-card {
   display: block;
 }
-.mil-blog-card .mil-cover-frame {
+.arg-blog-card .arg-cover-frame {
   position: relative;
   overflow: hidden;
   padding-bottom: 65%;
   margin-bottom: 30px;
 }
-.mil-blog-card .mil-cover-frame img {
+.arg-blog-card .arg-cover-frame img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -2838,21 +2838,21 @@ blog
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-blog-card .mil-post-descr {
+.arg-blog-card .arg-post-descr {
   padding: 30px 30px 0 0;
 }
-.mil-blog-card .mil-post-descr .mil-post-text {
+.arg-blog-card .arg-post-descr .arg-post-text {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.mil-blog-card:hover .mil-cover-frame img {
+.arg-blog-card:hover .arg-cover-frame img {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
-.mil-blog-card.mil-blog-card-hori {
+.arg-blog-card.arg-blog-card-hori {
   padding-top: 60px;
   border-top: solid 1px rgb(229, 229, 229);
   display: -webkit-box;
@@ -2862,34 +2862,34 @@ blog
       -ms-flex-align: center;
           align-items: center;
 }
-.mil-blog-card.mil-blog-card-hori .mil-cover-frame {
+.arg-blog-card.arg-blog-card-hori .arg-cover-frame {
   margin-bottom: 0;
   width: 450px;
   padding-bottom: 27%;
 }
-.mil-blog-card.mil-blog-card-hori .mil-post-descr {
+.arg-blog-card.arg-blog-card-hori .arg-post-descr {
   width: calc(100% - 450px);
   padding: 0;
   padding-left: 60px;
 }
 @media screen and (max-width: 992px) {
-  .mil-blog-card.mil-blog-card-hori {
+  .arg-blog-card.arg-blog-card-hori {
     display: block;
     padding-top: 0;
     border: none;
   }
-  .mil-blog-card.mil-blog-card-hori .mil-cover-frame {
+  .arg-blog-card.arg-blog-card-hori .arg-cover-frame {
     width: 100%;
     padding-bottom: 65%;
     margin-bottom: 30px;
   }
-  .mil-blog-card.mil-blog-card-hori .mil-post-descr {
+  .arg-blog-card.arg-blog-card-hori .arg-post-descr {
     width: 100%;
     padding: 30px 30px 0 0;
   }
 }
 
-.mil-labels {
+.arg-labels {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2898,14 +2898,14 @@ blog
           align-items: center;
   padding: 0;
 }
-.mil-labels .mil-label {
+.arg-labels .arg-label {
   margin-right: 15px;
 }
-.mil-labels .mil-label:last-child {
+.arg-labels .arg-label:last-child {
   margin-right: 0;
 }
 
-.mil-pagination {
+.arg-pagination {
   padding-top: 60px;
   border-top: solid 1px rgba(28, 30, 28, 0.1);
   display: -webkit-box;
@@ -2917,7 +2917,7 @@ blog
   margin-top: 20px;
 }
 
-.mil-pagination-btn {
+.arg-pagination-btn {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -2932,23 +2932,23 @@ blog
   margin-right: 10px;
 }
 
-.mil-pagination-btn.mil-active {
+.arg-pagination-btn.arg-active {
   background-color: rgb(122, 241, 122);
 }
 
-.mil-category-list {
+.arg-category-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.mil-category-list li {
+.arg-category-list li {
   list-style-type: none;
   margin-right: 10px;
 }
-.mil-category-list li:last-child {
+.arg-category-list li:last-child {
   margin-right: 0;
 }
-.mil-category-list li a {
+.arg-category-list li a {
   height: 40px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2970,30 +2970,30 @@ blog
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-category-list li a:hover {
+.arg-category-list li a:hover {
   background-color: rgb(229, 229, 229);
 }
-.mil-category-list li a.mil-active {
+.arg-category-list li a.arg-active {
   background-color: rgb(28, 30, 28);
 }
 @media screen and (max-width: 768px) {
-  .mil-category-list {
+  .arg-category-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mil-category-list li {
+  .arg-category-list li {
     margin-right: 0;
     margin-bottom: 10px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .mil-category-list li:last-child {
+  .arg-category-list li:last-child {
     margin-bottom: 0;
   }
-  .mil-category-list li a {
+  .arg-category-list li a {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -3005,14 +3005,14 @@ blog
 footer
 
 ------------------------------------------- */
-.mil-footer-menu {
+.arg-footer-menu {
   margin-bottom: 120px;
 }
-.mil-footer-menu ul li {
+.arg-footer-menu ul li {
   list-style-type: none;
   margin-bottom: 30px;
 }
-.mil-footer-menu ul li a {
+.arg-footer-menu ul li a {
   display: block;
   font-weight: 500;
   font-size: 28px;
@@ -3020,35 +3020,35 @@ footer
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-footer-menu ul li a:hover {
+.arg-footer-menu ul li a:hover {
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
   color: rgb(122, 241, 122);
 }
 @media screen and (max-width: 768px) {
-  .mil-footer-menu ul li a {
+  .arg-footer-menu ul li a {
     font-size: 22px;
   }
 }
-.mil-footer-menu ul li.mil-active a {
+.arg-footer-menu ul li.arg-active a {
   color: rgb(122, 241, 122);
 }
-.mil-footer-menu ul li.mil-active a:hover {
+.arg-footer-menu ul li.arg-active a:hover {
   -webkit-transform: none;
           transform: none;
 }
 @media screen and (max-width: 768px) {
-  .mil-footer-menu {
+  .arg-footer-menu {
     margin-bottom: 60px;
   }
 }
 
-.mil-subscribe-form {
+.arg-subscribe-form {
   position: relative;
   height: 70px;
   width: 100%;
 }
-.mil-subscribe-form input {
+.arg-subscribe-form input {
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -3063,59 +3063,59 @@ footer
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-subscribe-form input::-webkit-input-placeholder {
+.arg-subscribe-form input::-webkit-input-placeholder {
   color: rgb(128, 128, 128);
-  font-family: "Outfit", sans-serif;
+  font-faargy: "Outfit", sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.mil-subscribe-form input::-moz-placeholder {
+.arg-subscribe-form input::-moz-placeholder {
   color: rgb(128, 128, 128);
-  font-family: "Outfit", sans-serif;
+  font-faargy: "Outfit", sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.mil-subscribe-form input:-ms-input-placeholder {
+.arg-subscribe-form input:-ms-input-placeholder {
   color: rgb(128, 128, 128);
-  font-family: "Outfit", sans-serif;
+  font-faargy: "Outfit", sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.mil-subscribe-form input::-ms-input-placeholder {
+.arg-subscribe-form input::-ms-input-placeholder {
   color: rgb(128, 128, 128);
-  font-family: "Outfit", sans-serif;
+  font-faargy: "Outfit", sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.mil-subscribe-form input::placeholder {
+.arg-subscribe-form input::placeholder {
   color: rgb(128, 128, 128);
-  font-family: "Outfit", sans-serif;
+  font-faargy: "Outfit", sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.mil-subscribe-form input:focus {
+.arg-subscribe-form input:focus {
   background-color: rgb(255, 255, 255);
   outline: inherit;
 }
-.mil-subscribe-form input:hover {
+.arg-subscribe-form input:hover {
   background-color: rgb(255, 255, 255);
 }
-.mil-subscribe-form .mil-button {
+.arg-subscribe-form .arg-button {
   position: absolute;
   top: 15px;
   right: 15px;
 }
-.mil-subscribe-form.mil-subscribe-form-2 input {
+.arg-subscribe-form.arg-subscribe-form-2 input {
   height: 100%;
   width: 100%;
   background-color: rgba(28, 30, 28, 0.1);
@@ -3126,22 +3126,22 @@ footer
 portfolio
 
 ------------------------------------------- */
-.mil-portfolio-item {
+.arg-portfolio-item {
   display: block;
 }
-.mil-portfolio-item .mil-cover-frame {
+.arg-portfolio-item .arg-cover-frame {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
-.mil-portfolio-item .mil-cover-frame .mil-cover {
+.arg-portfolio-item .arg-cover-frame .arg-cover {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.mil-portfolio-item .mil-cover-frame .mil-cover img {
+.arg-portfolio-item .arg-cover-frame .arg-cover img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -3151,27 +3151,27 @@ portfolio
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-portfolio-item .mil-cover-frame.mil-vert {
+.arg-portfolio-item .arg-cover-frame.arg-vert {
   padding-bottom: 130%;
 }
-.mil-portfolio-item .mil-cover-frame.mil-hori {
+.arg-portfolio-item .arg-cover-frame.arg-hori {
   padding-bottom: 65%;
 }
-.mil-portfolio-item:hover .mil-cover-frame .mil-cover img {
+.arg-portfolio-item:hover .arg-cover-frame .arg-cover img {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
-.mil-portfolio-item.mil-slider-item .mil-cover-frame {
+.arg-portfolio-item.arg-slider-item .arg-cover-frame {
   margin-bottom: 30px;
   height: calc(100vh - 360px);
 }
 @media screen and (max-width: 992px) {
-  .mil-portfolio-item.mil-slider-item .mil-cover-frame {
+  .arg-portfolio-item.arg-slider-item .arg-cover-frame {
     height: auto;
     padding-bottom: 100%;
   }
 }
-.mil-portfolio-item.mil-slider-item .mil-descr {
+.arg-portfolio-item.arg-slider-item .arg-descr {
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3187,7 +3187,7 @@ portfolio
   padding: 0 60px;
 }
 @media screen and (max-width: 992px) {
-  .mil-portfolio-item.mil-slider-item .mil-descr {
+  .arg-portfolio-item.arg-slider-item .arg-descr {
     padding: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3198,44 +3198,44 @@ portfolio
             align-items: flex-start;
     height: auto;
   }
-  .mil-portfolio-item.mil-slider-item .mil-descr .mil-descr-text {
+  .arg-portfolio-item.arg-slider-item .arg-descr .arg-descr-text {
     margin-bottom: 30px;
   }
 }
-.mil-portfolio-item.mil-slider-item:hover .mil-cover-frame .mil-cover img {
+.arg-portfolio-item.arg-slider-item:hover .arg-cover-frame .arg-cover img {
   -webkit-transform: none;
           transform: none;
 }
 
-.swiper-slide .mil-portfolio-item .mil-descr {
+.swiper-slide .arg-portfolio-item .arg-descr {
   pointer-events: none;
 }
-.swiper-slide.swiper-slide-active .mil-portfolio-item .mil-descr {
+.swiper-slide.swiper-slide-active .arg-portfolio-item .arg-descr {
   pointer-events: all;
 }
 
-.mil-portfolio {
+.arg-portfolio {
   position: relative;
 }
-.mil-portfolio .mil-lines-place {
+.arg-portfolio .arg-lines-place {
   position: absolute;
   left: 40.7%;
 }
-.mil-portfolio .mil-lines-place.mil-lines-long {
+.arg-portfolio .arg-lines-place.arg-lines-long {
   top: 1289px;
 }
 
-.mil-portfolio-slider-frame {
+.arg-portfolio-slider-frame {
   z-index: 0;
   padding-top: 150px;
 }
 @media screen and (max-width: 992px) {
-  .mil-portfolio-slider-frame {
+  .arg-portfolio-slider-frame {
     padding-top: 180px;
   }
 }
 
-.mil-portfolio-nav {
+.arg-portfolio-nav {
   background-color: rgb(242, 242, 242);
   width: 100%;
   padding: 0 60px;
@@ -3252,7 +3252,7 @@ portfolio
       -ms-flex-pack: center;
           justify-content: center;
 }
-.mil-portfolio-nav .mil-portfolio-btns-frame {
+.arg-portfolio-nav .arg-portfolio-btns-frame {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3268,7 +3268,7 @@ portfolio
   background-color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 992px) {
-  .mil-portfolio-nav {
+  .arg-portfolio-nav {
     position: static;
     height: auto;
     padding: 30px 0 90px;
@@ -3277,7 +3277,7 @@ portfolio
             justify-content: flex-start;
     background-color: rgb(255, 255, 255);
   }
-  .mil-portfolio-nav .mil-portfolio-btns-frame {
+  .arg-portfolio-nav .arg-portfolio-btns-frame {
     width: 100%;
     height: auto;
     padding: 0;
@@ -3293,7 +3293,7 @@ portfolio
   padding: 0 15px;
 }
 
-.mil-info {
+.arg-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3312,7 +3312,7 @@ portfolio
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  .mil-info {
+  .arg-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3322,7 +3322,7 @@ portfolio
   }
 }
 
-.mil-works-nav {
+.arg-works-nav {
   padding-top: 60px;
   border-top: solid 1px rgba(28, 30, 28, 0.1);
   display: -webkit-box;
@@ -3335,22 +3335,22 @@ portfolio
       -ms-flex-align: center;
           align-items: center;
 }
-.mil-works-nav .mil-disabled {
+.arg-works-nav .arg-disabled {
   opacity: 0.2;
   cursor: not-allowed;
 }
 @media screen and (max-width: 768px) {
-  .mil-works-nav {
+  .arg-works-nav {
     padding-top: 0;
     border-top: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .mil-works-nav .mil-link {
+  .arg-works-nav .arg-link {
     display: none;
   }
-  .mil-works-nav .mil-link:last-child {
+  .arg-works-nav .arg-link:last-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3362,14 +3362,14 @@ portfolio
 map
 
 ***************************/
-.mil-map-frame {
+.arg-map-frame {
   background-color: rgb(229, 229, 229);
   pointer-events: all;
   height: 600px;
   position: relative;
   overflow: hidden;
 }
-.mil-map-frame .mil-map {
+.arg-map-frame .arg-map {
   position: absolute;
   top: -25%;
   left: -25%;
@@ -3378,7 +3378,7 @@ map
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-map-frame .mil-map iframe {
+.arg-map-frame .arg-map iframe {
   width: 100%;
   height: 100%;
 }
@@ -3387,11 +3387,11 @@ map
 accordion
 
 ------------------------------------------- */
-.mil-accordion-group {
+.arg-accordion-group {
   border-bottom: solid 1px rgba(28, 30, 28, 0.2);
   margin-bottom: 30px;
 }
-.mil-accordion-group .mil-accordion-menu {
+.arg-accordion-group .arg-accordion-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3404,7 +3404,7 @@ accordion
   cursor: pointer;
   margin-bottom: 30px;
 }
-.mil-accordion-group .mil-accordion-menu .mil-symbol {
+.arg-accordion-group .arg-accordion-menu .arg-symbol {
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -3422,14 +3422,14 @@ accordion
           justify-content: center;
   position: relative;
 }
-.mil-accordion-group .mil-accordion-menu .mil-symbol .mil-plus, .mil-accordion-group .mil-accordion-menu .mil-symbol .mil-minus {
+.arg-accordion-group .arg-accordion-menu .arg-symbol .arg-plus, .arg-accordion-group .arg-accordion-menu .arg-symbol .arg-minus {
   position: absolute;
 }
-.mil-accordion-group .mil-accordion-menu .mil-symbol .mil-minus {
+.arg-accordion-group .arg-accordion-menu .arg-symbol .arg-minus {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
-.mil-accordion-group .mil-accordion-menu .mil-accordion-head {
+.arg-accordion-group .arg-accordion-menu .arg-accordion-head {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -3437,7 +3437,7 @@ accordion
   color: rgb(28, 30, 28);
 }
 
-.mil-accordion-content {
+.arg-accordion-content {
   height: 0;
   overflow: hidden;
 }
@@ -3447,20 +3447,20 @@ accordion
 price
 
 ***************************/
-.mil-price-card {
+.arg-price-card {
   display: block;
   width: 100%;
   border-top: solid 1px rgba(255, 255, 255, 0.1);
   border-bottom: solid 1px rgba(255, 255, 255, 0.1);
   padding: 60px 0 30px;
 }
-.mil-price-card .mil-price-number {
+.arg-price-card .arg-price-number {
   padding-top: 10px;
   line-height: 70%;
   font-size: 54px;
   font-weight: 500;
 }
-.mil-price-card .mil-price-number .mil-thin {
+.arg-price-card .arg-price-number .arg-thin {
   font-weight: 200;
   font-size: 18px;
 }
@@ -3470,11 +3470,11 @@ price
 404
 
 ***************************/
-.mil-404-banner .mil-animation-frame {
+.arg-404-banner .arg-animation-frame {
   z-index: 2;
 }
 
-.mil-404-frame {
+.arg-404-frame {
   padding-top: 100px;
   height: 100vh;
   width: 100%;
@@ -3493,34 +3493,34 @@ price
           align-items: center;
 }
 
-.mil-404-text {
+.arg-404-text {
   display: block;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
-.mil-scale-frame {
+.arg-scale-frame {
   -webkit-transform: scale(2.3);
           transform: scale(2.3);
   text-align: center;
   margin-bottom: 90px;
 }
 @media screen and (max-width: 530px) {
-  .mil-scale-frame {
+  .arg-scale-frame {
     -webkit-transform: scale(1.3);
             transform: scale(1.3);
     margin-bottom: 50px;
   }
 }
 
-.mil-404 {
+.arg-404 {
   position: relative;
   color: rgb(255, 255, 255);
   font-size: 6em;
   font-weight: 500;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
-.mil-404::before {
+.arg-404::before {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -3532,7 +3532,7 @@ price
   clip: rect(44px, 450px, 56px, 0);
   animation: glitch-anim 5s infinite linear alternate-reverse;
 }
-.mil-404::after {
+.arg-404::after {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -4070,11 +4070,11 @@ price
 images
 
 ***************************/
-.mil-image-frame {
+.arg-image-frame {
   position: relative;
   overflow: hidden;
 }
-.mil-image-frame > img {
+.arg-image-frame > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -4085,19 +4085,19 @@ images
   -o-object-position: center;
      object-position: center;
 }
-.mil-image-frame.mil-horizontal {
+.arg-image-frame.arg-horizontal {
   padding-bottom: 65%;
 }
-.mil-image-frame.mil-vertical {
+.arg-image-frame.arg-vertical {
   padding-bottom: 140%;
 }
-.mil-image-frame.mil-square {
+.arg-image-frame.arg-square {
   padding-bottom: 100%;
 }
-.mil-image-frame.mil-fw {
+.arg-image-frame.arg-fw {
   padding-bottom: 50%;
 }
-.mil-image-frame .mil-zoom-btn {
+.arg-image-frame .arg-zoom-btn {
   opacity: 0;
   -webkit-transform: translateY(15px);
           transform: translateY(15px);
@@ -4120,14 +4120,14 @@ images
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-image-frame .mil-zoom-btn:hover {
+.arg-image-frame .arg-zoom-btn:hover {
   background-color: rgb(255, 255, 255);
 }
-.mil-image-frame .mil-zoom-btn img {
+.arg-image-frame .arg-zoom-btn img {
   height: 17px;
   width: 17px;
 }
-.mil-image-frame:hover .mil-zoom-btn {
+.arg-image-frame:hover .arg-zoom-btn {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -4139,7 +4139,7 @@ images
 page transitions
 
 ***************************/
-.mil-frame {
+.arg-frame {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -4147,7 +4147,7 @@ page transitions
   transition: 0.6s;
 }
 
-.mil-curtain {
+.arg-curtain {
   position: fixed;
   pointer-events: none;
   z-index: 4;
@@ -4159,14 +4159,14 @@ page transitions
   transition: 0.6s;
 }
 
-.mil-main-transition {
+.arg-main-transition {
   -webkit-transition: 0.6s;
   transition: 0.6s;
   margin-top: 0;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
-.mil-main-transition .mil-animation-frame {
+.arg-main-transition .arg-animation-frame {
   opacity: 1;
   margin-top: 0;
   -webkit-transition: 0.6s;
@@ -4174,7 +4174,7 @@ page transitions
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
-.mil-main-transition .mil-lines-place {
+.arg-main-transition .arg-lines-place {
   opacity: 1;
   margin-top: 0;
   -webkit-transition: 0.6s;
@@ -4183,7 +4183,7 @@ page transitions
           transition-delay: 0.3s;
 }
 
-html.is-animating .mil-frame {
+html.is-animating .arg-frame {
   opacity: 0;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
@@ -4191,33 +4191,33 @@ html.is-animating .mil-frame {
           transform: scale(0.9);
 }
 @media screen and (max-width: 1200px) {
-  html.is-animating .mil-frame {
+  html.is-animating .arg-frame {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
   }
 }
-html.is-animating .mil-curtain {
+html.is-animating .arg-curtain {
   opacity: 1;
   pointer-events: all;
 }
-html.is-animating .mil-main-transition {
+html.is-animating .arg-main-transition {
   margin-top: 0.1px;
 }
-html.is-animating .mil-main-transition .mil-animation-frame {
+html.is-animating .arg-main-transition .arg-animation-frame {
   opacity: 0;
   margin-top: -90px;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
-html.is-animating .mil-main-transition .mil-lines-place {
+html.is-animating .arg-main-transition .arg-lines-place {
   opacity: 0;
   margin-top: 90px;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
 
-html.is-animating .mil-menu-frame {
+html.is-animating .arg-menu-frame {
   opacity: 0;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
